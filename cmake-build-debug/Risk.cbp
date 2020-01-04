@@ -82,6 +82,24 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="C:/Users/Flatline/Documents/Projects/Risk/Territory/Continent.cpp">
+			<Option target="Risk"/>
+		</Unit>
+		<Unit filename="C:/Users/Flatline/Documents/Projects/Risk/Territory/Continent.h">
+			<Option target="Risk"/>
+		</Unit>
+		<Unit filename="C:/Users/Flatline/Documents/Projects/Risk/Territory/Country.cpp">
+			<Option target="Risk"/>
+		</Unit>
+		<Unit filename="C:/Users/Flatline/Documents/Projects/Risk/Territory/Country.h">
+			<Option target="Risk"/>
+		</Unit>
+		<Unit filename="C:/Users/Flatline/Documents/Projects/Risk/Territory/Map.cpp">
+			<Option target="Risk"/>
+		</Unit>
+		<Unit filename="C:/Users/Flatline/Documents/Projects/Risk/Territory/Map.h">
+			<Option target="Risk"/>
+		</Unit>
 		<Unit filename="C:/Users/Flatline/Documents/Projects/Risk/main.cpp">
 			<Option target="Risk"/>
 		</Unit>

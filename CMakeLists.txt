@@ -3,4 +3,4 @@ project(Risk)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(Risk main.cpp)
+add_executable(Risk main.cpp Territory/Country.cpp Territory/Country.h Territory/Continent.cpp Territory/Continent.h Territory/Map.cpp Territory/Map.h)

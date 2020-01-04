@@ -77,17 +77,80 @@ CMakeFiles\Risk.dir\main.cpp.s: cmake_force
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\Risk.dir\main.cpp.s /c C:\Users\Flatline\Documents\Projects\Risk\main.cpp
 <<
 
+CMakeFiles\Risk.dir\Territory\Country.cpp.obj: CMakeFiles\Risk.dir\flags.make
+CMakeFiles\Risk.dir\Territory\Country.cpp.obj: ..\Territory\Country.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Flatline\Documents\Projects\Risk\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Risk.dir/Territory/Country.cpp.obj"
+	C:\PROGRA~2\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1423~1.281\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\Risk.dir\Territory\Country.cpp.obj /FdCMakeFiles\Risk.dir\ /FS -c C:\Users\Flatline\Documents\Projects\Risk\Territory\Country.cpp
+<<
+
+CMakeFiles\Risk.dir\Territory\Country.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Risk.dir/Territory/Country.cpp.i"
+	C:\PROGRA~2\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1423~1.281\bin\Hostx86\x86\cl.exe > CMakeFiles\Risk.dir\Territory\Country.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Flatline\Documents\Projects\Risk\Territory\Country.cpp
+<<
+
+CMakeFiles\Risk.dir\Territory\Country.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Risk.dir/Territory/Country.cpp.s"
+	C:\PROGRA~2\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1423~1.281\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\Risk.dir\Territory\Country.cpp.s /c C:\Users\Flatline\Documents\Projects\Risk\Territory\Country.cpp
+<<
+
+CMakeFiles\Risk.dir\Territory\Continent.cpp.obj: CMakeFiles\Risk.dir\flags.make
+CMakeFiles\Risk.dir\Territory\Continent.cpp.obj: ..\Territory\Continent.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Flatline\Documents\Projects\Risk\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Risk.dir/Territory/Continent.cpp.obj"
+	C:\PROGRA~2\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1423~1.281\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\Risk.dir\Territory\Continent.cpp.obj /FdCMakeFiles\Risk.dir\ /FS -c C:\Users\Flatline\Documents\Projects\Risk\Territory\Continent.cpp
+<<
+
+CMakeFiles\Risk.dir\Territory\Continent.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Risk.dir/Territory/Continent.cpp.i"
+	C:\PROGRA~2\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1423~1.281\bin\Hostx86\x86\cl.exe > CMakeFiles\Risk.dir\Territory\Continent.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Flatline\Documents\Projects\Risk\Territory\Continent.cpp
+<<
+
+CMakeFiles\Risk.dir\Territory\Continent.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Risk.dir/Territory/Continent.cpp.s"
+	C:\PROGRA~2\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1423~1.281\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\Risk.dir\Territory\Continent.cpp.s /c C:\Users\Flatline\Documents\Projects\Risk\Territory\Continent.cpp
+<<
+
+CMakeFiles\Risk.dir\Territory\Map.cpp.obj: CMakeFiles\Risk.dir\flags.make
+CMakeFiles\Risk.dir\Territory\Map.cpp.obj: ..\Territory\Map.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Flatline\Documents\Projects\Risk\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Risk.dir/Territory/Map.cpp.obj"
+	C:\PROGRA~2\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1423~1.281\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\Risk.dir\Territory\Map.cpp.obj /FdCMakeFiles\Risk.dir\ /FS -c C:\Users\Flatline\Documents\Projects\Risk\Territory\Map.cpp
+<<
+
+CMakeFiles\Risk.dir\Territory\Map.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Risk.dir/Territory/Map.cpp.i"
+	C:\PROGRA~2\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1423~1.281\bin\Hostx86\x86\cl.exe > CMakeFiles\Risk.dir\Territory\Map.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Flatline\Documents\Projects\Risk\Territory\Map.cpp
+<<
+
+CMakeFiles\Risk.dir\Territory\Map.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Risk.dir/Territory/Map.cpp.s"
+	C:\PROGRA~2\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1423~1.281\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\Risk.dir\Territory\Map.cpp.s /c C:\Users\Flatline\Documents\Projects\Risk\Territory\Map.cpp
+<<
+
 # Object files for target Risk
 Risk_OBJECTS = \
-"CMakeFiles\Risk.dir\main.cpp.obj"
+"CMakeFiles\Risk.dir\main.cpp.obj" \
+"CMakeFiles\Risk.dir\Territory\Country.cpp.obj" \
+"CMakeFiles\Risk.dir\Territory\Continent.cpp.obj" \
+"CMakeFiles\Risk.dir\Territory\Map.cpp.obj"
 
 # External object files for target Risk
 Risk_EXTERNAL_OBJECTS =
 
 Risk.exe: CMakeFiles\Risk.dir\main.cpp.obj
+Risk.exe: CMakeFiles\Risk.dir\Territory\Country.cpp.obj
+Risk.exe: CMakeFiles\Risk.dir\Territory\Continent.cpp.obj
+Risk.exe: CMakeFiles\Risk.dir\Territory\Map.cpp.obj
 Risk.exe: CMakeFiles\Risk.dir\build.make
 Risk.exe: CMakeFiles\Risk.dir\objects1.rsp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\Flatline\Documents\Projects\Risk\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Risk.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\Flatline\Documents\Projects\Risk\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable Risk.exe"
 	"C:\Program Files\JetBrains\CLion 2019.2.5\bin\cmake\win\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\Risk.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100183~1.0\x86\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100183~1.0\x86\mt.exe --manifests  -- C:\PROGRA~2\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1423~1.281\bin\Hostx86\x86\link.exe /nologo @CMakeFiles\Risk.dir\objects1.rsp @<<
  /out:Risk.exe /implib:Risk.lib /pdb:C:\Users\Flatline\Documents\Projects\Risk\cmake-build-debug\Risk.pdb /version:0.0  /machine:X86 /debug /INCREMENTAL /subsystem:console kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib 
 <<

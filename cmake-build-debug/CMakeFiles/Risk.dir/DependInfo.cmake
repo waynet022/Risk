@@ -4,6 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "C:/Users/Flatline/Documents/Projects/Risk/Territory/Continent.cpp" "C:/Users/Flatline/Documents/Projects/Risk/cmake-build-debug/CMakeFiles/Risk.dir/Territory/Continent.cpp.obj"
+  "C:/Users/Flatline/Documents/Projects/Risk/Territory/Country.cpp" "C:/Users/Flatline/Documents/Projects/Risk/cmake-build-debug/CMakeFiles/Risk.dir/Territory/Country.cpp.obj"
+  "C:/Users/Flatline/Documents/Projects/Risk/Territory/Map.cpp" "C:/Users/Flatline/Documents/Projects/Risk/cmake-build-debug/CMakeFiles/Risk.dir/Territory/Map.cpp.obj"
   "C:/Users/Flatline/Documents/Projects/Risk/main.cpp" "C:/Users/Flatline/Documents/Projects/Risk/cmake-build-debug/CMakeFiles/Risk.dir/main.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "MSVC")

@@ -1,4 +1,7 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/Risk.dir/Territory/Continent.cpp.obj"
+  "CMakeFiles/Risk.dir/Territory/Country.cpp.obj"
+  "CMakeFiles/Risk.dir/Territory/Map.cpp.obj"
   "CMakeFiles/Risk.dir/main.cpp.obj"
   "Risk.exe"
   "Risk.exe.manifest"

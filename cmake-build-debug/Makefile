@@ -124,6 +124,87 @@ Risk\fast:
 	$(MAKE) -f CMakeFiles\Risk.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Risk.dir\build
 .PHONY : Risk\fast
 
+Territory\Continent.obj: Territory\Continent.cpp.obj
+
+.PHONY : Territory\Continent.obj
+
+# target to build an object file
+Territory\Continent.cpp.obj:
+	$(MAKE) -f CMakeFiles\Risk.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Risk.dir\Territory\Continent.cpp.obj
+.PHONY : Territory\Continent.cpp.obj
+
+Territory\Continent.i: Territory\Continent.cpp.i
+
+.PHONY : Territory\Continent.i
+
+# target to preprocess a source file
+Territory\Continent.cpp.i:
+	$(MAKE) -f CMakeFiles\Risk.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Risk.dir\Territory\Continent.cpp.i
+.PHONY : Territory\Continent.cpp.i
+
+Territory\Continent.s: Territory\Continent.cpp.s
+
+.PHONY : Territory\Continent.s
+
+# target to generate assembly for a file
+Territory\Continent.cpp.s:
+	$(MAKE) -f CMakeFiles\Risk.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Risk.dir\Territory\Continent.cpp.s
+.PHONY : Territory\Continent.cpp.s
+
+Territory\Country.obj: Territory\Country.cpp.obj
+
+.PHONY : Territory\Country.obj
+
+# target to build an object file
+Territory\Country.cpp.obj:
+	$(MAKE) -f CMakeFiles\Risk.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Risk.dir\Territory\Country.cpp.obj
+.PHONY : Territory\Country.cpp.obj
+
+Territory\Country.i: Territory\Country.cpp.i
+
+.PHONY : Territory\Country.i
+
+# target to preprocess a source file
+Territory\Country.cpp.i:
+	$(MAKE) -f CMakeFiles\Risk.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Risk.dir\Territory\Country.cpp.i
+.PHONY : Territory\Country.cpp.i
+
+Territory\Country.s: Territory\Country.cpp.s
+
+.PHONY : Territory\Country.s
+
+# target to generate assembly for a file
+Territory\Country.cpp.s:
+	$(MAKE) -f CMakeFiles\Risk.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Risk.dir\Territory\Country.cpp.s
+.PHONY : Territory\Country.cpp.s
+
+Territory\Map.obj: Territory\Map.cpp.obj
+
+.PHONY : Territory\Map.obj
+
+# target to build an object file
+Territory\Map.cpp.obj:
+	$(MAKE) -f CMakeFiles\Risk.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Risk.dir\Territory\Map.cpp.obj
+.PHONY : Territory\Map.cpp.obj
+
+Territory\Map.i: Territory\Map.cpp.i
+
+.PHONY : Territory\Map.i
+
+# target to preprocess a source file
+Territory\Map.cpp.i:
+	$(MAKE) -f CMakeFiles\Risk.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Risk.dir\Territory\Map.cpp.i
+.PHONY : Territory\Map.cpp.i
+
+Territory\Map.s: Territory\Map.cpp.s
+
+.PHONY : Territory\Map.s
+
+# target to generate assembly for a file
+Territory\Map.cpp.s:
+	$(MAKE) -f CMakeFiles\Risk.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Risk.dir\Territory\Map.cpp.s
+.PHONY : Territory\Map.cpp.s
+
 main.obj: main.cpp.obj
 
 .PHONY : main.obj
@@ -160,6 +241,15 @@ help:
 	@echo ... Risk
 	@echo ... edit_cache
 	@echo ... rebuild_cache
+	@echo ... Territory/Continent.obj
+	@echo ... Territory/Continent.i
+	@echo ... Territory/Continent.s
+	@echo ... Territory/Country.obj
+	@echo ... Territory/Country.i
+	@echo ... Territory/Country.s
+	@echo ... Territory/Map.obj
+	@echo ... Territory/Map.i
+	@echo ... Territory/Map.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
