@@ -21,13 +21,9 @@ vector<Card*>* Hand::GetCardsInHand(){
 void Hand::AddCardToHand(Card* card){
     hand_cards_->push_back(card);
 }
-void Hand::RemoveCardFromHand(Card* card){
-    if (hand_cards_->empty()){
-        cout<<"Hand is empty"<<endl;
-        return;
+
+void Hand::DisplayCardsInHand(){
+    for(int i= 0; i< hand_cards_->size(); i++){
+        hand_cards_->at(i)->DisplayCard();
     }
-
-   
 }
-
-void DisplayCardsInHand();

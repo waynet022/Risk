@@ -21,7 +21,6 @@ public:
     vector<Card*>* GetCardsInHand();
 
     void AddCardToHand(Card* card);
-    void RemoveCardFromHand(Card* card);
 
     void DisplayCardsInHand();
 
