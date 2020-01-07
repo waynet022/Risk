@@ -4,7 +4,7 @@
 
 #ifndef RISK_HAND_H
 #define RISK_HAND_H
-
+#include <iostream>
 #include <vector>
 
 #include "Card.h"
@@ -16,15 +16,14 @@ private:
     vector<Card*>* hand_cards_;
 public:
     Hand();
-    Hand(vector<Card*>* hand_cards);
     ~Hand();
 
-    Hand& operator=(const Hand& hand);
-    bool operator==(const Hand& hand);
-
     vector<Card*>* GetCardsInHand();
+
     void AddCardToHand(Card* card);
-    void deleteCardFromHand(Card* card);
+    void RemoveCardFromHand(Card* card);
+
+    void DisplayCardsInHand();
 
 };
 

@@ -11,13 +11,19 @@ using namespace std;
 
 class Card {
 private:
-    string* type_;
+    string type_;
 public:
     Card();
-    Card(string* type);
+    Card(string type);
+    ~Card() = default;
 
-    string* GetType();
-    string* SetType();
+    bool operator==(Card card);
+
+    string GetType();
+
+    void SetType(string type);
+
+    void DisplayCard();
 
 };
 

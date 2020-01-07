@@ -5,6 +5,7 @@
 #ifndef RISK_CONTINENT_H
 #define RISK_CONTINENT_H
 
+#include<iostream>
 #include <string>
 #include <vector>
 #include "Country.h"

@@ -4,6 +4,7 @@
 
 #include "Continent.h"
 
+
 Continent::Continent(){
     *continent_name_ = "unknown_continent_name";
     continent_id_ = 0;
@@ -25,6 +26,9 @@ Continent::Continent(const Continent &continent){
 Continent::~Continent(){
     continent_name_ = nullptr;
     delete continent_name_;
+
+    continent_countries_ = nullptr;
+    delete continent_countries_;
 }
 
 string* Continent::GetContinentName(){
@@ -37,5 +41,23 @@ int Continent::GetContinentID(){
 
 int Continent::GetContinentBonusArmyValue(){
     return continent_bonus_army_value_;
+}
+
+void Continent::AddCountryToContinent(Country* country){
+    continent_countries_->push_back(country);
+}
+
+bool Continent::IsCountryInContinent(Country* country){
+    for(int i = 0; i<continent_countries_->size(); i++){
+        if(country==continent_countries_->at(i)){
+            return true;
+        }
+    }
+    return false;
+}
+void Continent::DisplayCountriesInContinent(){
+    for(int i = 0; i<continent_countries_->size(); i++){
+        cout<<
+    }
 }
 
