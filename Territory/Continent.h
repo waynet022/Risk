@@ -6,6 +6,8 @@
 #define RISK_CONTINENT_H
 
 #include <string>
+#include <vector>
+#include "Country.h"
 using namespace std;
 
 class Continent {
@@ -13,6 +15,7 @@ private:
     string* continent_name_;
     int continent_id_;
     int continent_bonus_army_value_;
+    vector<Country*>* continent_countries_;
 
 public:
     Continent();
@@ -23,6 +26,10 @@ public:
     string* GetContinentName();
     int GetContinentID();
     int GetContinentBonusArmyValue();
+    void AddCountryToContinent(Country* country);
+    bool IsCountryInContinent(Country* country);
+    void DisplayCountriesInContinent();
+
 };
 
 

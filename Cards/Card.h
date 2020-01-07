@@ -1,0 +1,25 @@
+//
+// Created by BusinessB4Pleasure on 1/6/2020.
+//
+
+#ifndef RISK_CARD_H
+#define RISK_CARD_H
+
+#include <string>
+
+using namespace std;
+
+class Card {
+private:
+    string* type_;
+public:
+    Card();
+    Card(string* type);
+
+    string* GetType();
+    string* SetType();
+
+};
+
+
+#endif //RISK_CARD_H

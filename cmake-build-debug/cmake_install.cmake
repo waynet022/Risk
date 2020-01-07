@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/Flatline/Documents/Projects/Risk
+# Install script for directory: C:/Users/BusinessB4Pleasure/Documents/Risk
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -40,5 +40,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/Users/Flatline/Documents/Projects/Risk/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/Users/BusinessB4Pleasure/Documents/Risk/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

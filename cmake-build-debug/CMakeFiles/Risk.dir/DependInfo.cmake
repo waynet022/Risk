@@ -4,10 +4,14 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Users/Flatline/Documents/Projects/Risk/Territory/Continent.cpp" "C:/Users/Flatline/Documents/Projects/Risk/cmake-build-debug/CMakeFiles/Risk.dir/Territory/Continent.cpp.obj"
-  "C:/Users/Flatline/Documents/Projects/Risk/Territory/Country.cpp" "C:/Users/Flatline/Documents/Projects/Risk/cmake-build-debug/CMakeFiles/Risk.dir/Territory/Country.cpp.obj"
-  "C:/Users/Flatline/Documents/Projects/Risk/Territory/Map.cpp" "C:/Users/Flatline/Documents/Projects/Risk/cmake-build-debug/CMakeFiles/Risk.dir/Territory/Map.cpp.obj"
-  "C:/Users/Flatline/Documents/Projects/Risk/main.cpp" "C:/Users/Flatline/Documents/Projects/Risk/cmake-build-debug/CMakeFiles/Risk.dir/main.cpp.obj"
+  "C:/Users/BusinessB4Pleasure/Documents/Risk/Cards/Card.cpp" "C:/Users/BusinessB4Pleasure/Documents/Risk/cmake-build-debug/CMakeFiles/Risk.dir/Cards/Card.cpp.obj"
+  "C:/Users/BusinessB4Pleasure/Documents/Risk/Cards/Deck.cpp" "C:/Users/BusinessB4Pleasure/Documents/Risk/cmake-build-debug/CMakeFiles/Risk.dir/Cards/Deck.cpp.obj"
+  "C:/Users/BusinessB4Pleasure/Documents/Risk/Cards/Hand.cpp" "C:/Users/BusinessB4Pleasure/Documents/Risk/cmake-build-debug/CMakeFiles/Risk.dir/Cards/Hand.cpp.obj"
+  "C:/Users/BusinessB4Pleasure/Documents/Risk/Player/Player.cpp" "C:/Users/BusinessB4Pleasure/Documents/Risk/cmake-build-debug/CMakeFiles/Risk.dir/Player/Player.cpp.obj"
+  "C:/Users/BusinessB4Pleasure/Documents/Risk/Territory/Continent.cpp" "C:/Users/BusinessB4Pleasure/Documents/Risk/cmake-build-debug/CMakeFiles/Risk.dir/Territory/Continent.cpp.obj"
+  "C:/Users/BusinessB4Pleasure/Documents/Risk/Territory/Country.cpp" "C:/Users/BusinessB4Pleasure/Documents/Risk/cmake-build-debug/CMakeFiles/Risk.dir/Territory/Country.cpp.obj"
+  "C:/Users/BusinessB4Pleasure/Documents/Risk/Territory/Map.cpp" "C:/Users/BusinessB4Pleasure/Documents/Risk/cmake-build-debug/CMakeFiles/Risk.dir/Territory/Map.cpp.obj"
+  "C:/Users/BusinessB4Pleasure/Documents/Risk/main.cpp" "C:/Users/BusinessB4Pleasure/Documents/Risk/cmake-build-debug/CMakeFiles/Risk.dir/main.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "MSVC")
 

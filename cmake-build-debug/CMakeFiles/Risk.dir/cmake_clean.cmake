@@ -1,4 +1,8 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/Risk.dir/Cards/Card.cpp.obj"
+  "CMakeFiles/Risk.dir/Cards/Deck.cpp.obj"
+  "CMakeFiles/Risk.dir/Cards/Hand.cpp.obj"
+  "CMakeFiles/Risk.dir/Player/Player.cpp.obj"
   "CMakeFiles/Risk.dir/Territory/Continent.cpp.obj"
   "CMakeFiles/Risk.dir/Territory/Country.cpp.obj"
   "CMakeFiles/Risk.dir/Territory/Map.cpp.obj"

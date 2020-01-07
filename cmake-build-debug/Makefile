@@ -40,19 +40,19 @@ NULL=nul
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = "C:\Program Files\JetBrains\CLion 2019.2.5\bin\cmake\win\bin\cmake.exe"
+CMAKE_COMMAND = "C:\Program Files\JetBrains\CLion 2019.2.2\bin\cmake\win\bin\cmake.exe"
 
 # The command to remove a file.
-RM = "C:\Program Files\JetBrains\CLion 2019.2.5\bin\cmake\win\bin\cmake.exe" -E remove -f
+RM = "C:\Program Files\JetBrains\CLion 2019.2.2\bin\cmake\win\bin\cmake.exe" -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\Flatline\Documents\Projects\Risk
+CMAKE_SOURCE_DIR = C:\Users\BusinessB4Pleasure\Documents\Risk
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\Flatline\Documents\Projects\Risk\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\BusinessB4Pleasure\Documents\Risk\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -60,7 +60,7 @@ CMAKE_BINARY_DIR = C:\Users\Flatline\Documents\Projects\Risk\cmake-build-debug
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	echo >nul && "C:\Program Files\JetBrains\CLion 2019.2.5\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available."
+	echo >nul && "C:\Program Files\JetBrains\CLion 2019.2.2\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available."
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -71,7 +71,7 @@ edit_cache\fast: edit_cache
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	echo >nul && "C:\Program Files\JetBrains\CLion 2019.2.5\bin\cmake\win\bin\cmake.exe" -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	echo >nul && "C:\Program Files\JetBrains\CLion 2019.2.2\bin\cmake\win\bin\cmake.exe" -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -81,9 +81,9 @@ rebuild_cache\fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Flatline\Documents\Projects\Risk\cmake-build-debug\CMakeFiles C:\Users\Flatline\Documents\Projects\Risk\cmake-build-debug\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\BusinessB4Pleasure\Documents\Risk\cmake-build-debug\CMakeFiles C:\Users\BusinessB4Pleasure\Documents\Risk\cmake-build-debug\CMakeFiles\progress.marks
 	$(MAKE) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Flatline\Documents\Projects\Risk\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\BusinessB4Pleasure\Documents\Risk\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -123,6 +123,114 @@ Risk: cmake_check_build_system
 Risk\fast:
 	$(MAKE) -f CMakeFiles\Risk.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Risk.dir\build
 .PHONY : Risk\fast
+
+Cards\Card.obj: Cards\Card.cpp.obj
+
+.PHONY : Cards\Card.obj
+
+# target to build an object file
+Cards\Card.cpp.obj:
+	$(MAKE) -f CMakeFiles\Risk.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Risk.dir\Cards\Card.cpp.obj
+.PHONY : Cards\Card.cpp.obj
+
+Cards\Card.i: Cards\Card.cpp.i
+
+.PHONY : Cards\Card.i
+
+# target to preprocess a source file
+Cards\Card.cpp.i:
+	$(MAKE) -f CMakeFiles\Risk.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Risk.dir\Cards\Card.cpp.i
+.PHONY : Cards\Card.cpp.i
+
+Cards\Card.s: Cards\Card.cpp.s
+
+.PHONY : Cards\Card.s
+
+# target to generate assembly for a file
+Cards\Card.cpp.s:
+	$(MAKE) -f CMakeFiles\Risk.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Risk.dir\Cards\Card.cpp.s
+.PHONY : Cards\Card.cpp.s
+
+Cards\Deck.obj: Cards\Deck.cpp.obj
+
+.PHONY : Cards\Deck.obj
+
+# target to build an object file
+Cards\Deck.cpp.obj:
+	$(MAKE) -f CMakeFiles\Risk.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Risk.dir\Cards\Deck.cpp.obj
+.PHONY : Cards\Deck.cpp.obj
+
+Cards\Deck.i: Cards\Deck.cpp.i
+
+.PHONY : Cards\Deck.i
+
+# target to preprocess a source file
+Cards\Deck.cpp.i:
+	$(MAKE) -f CMakeFiles\Risk.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Risk.dir\Cards\Deck.cpp.i
+.PHONY : Cards\Deck.cpp.i
+
+Cards\Deck.s: Cards\Deck.cpp.s
+
+.PHONY : Cards\Deck.s
+
+# target to generate assembly for a file
+Cards\Deck.cpp.s:
+	$(MAKE) -f CMakeFiles\Risk.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Risk.dir\Cards\Deck.cpp.s
+.PHONY : Cards\Deck.cpp.s
+
+Cards\Hand.obj: Cards\Hand.cpp.obj
+
+.PHONY : Cards\Hand.obj
+
+# target to build an object file
+Cards\Hand.cpp.obj:
+	$(MAKE) -f CMakeFiles\Risk.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Risk.dir\Cards\Hand.cpp.obj
+.PHONY : Cards\Hand.cpp.obj
+
+Cards\Hand.i: Cards\Hand.cpp.i
+
+.PHONY : Cards\Hand.i
+
+# target to preprocess a source file
+Cards\Hand.cpp.i:
+	$(MAKE) -f CMakeFiles\Risk.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Risk.dir\Cards\Hand.cpp.i
+.PHONY : Cards\Hand.cpp.i
+
+Cards\Hand.s: Cards\Hand.cpp.s
+
+.PHONY : Cards\Hand.s
+
+# target to generate assembly for a file
+Cards\Hand.cpp.s:
+	$(MAKE) -f CMakeFiles\Risk.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Risk.dir\Cards\Hand.cpp.s
+.PHONY : Cards\Hand.cpp.s
+
+Player\Player.obj: Player\Player.cpp.obj
+
+.PHONY : Player\Player.obj
+
+# target to build an object file
+Player\Player.cpp.obj:
+	$(MAKE) -f CMakeFiles\Risk.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Risk.dir\Player\Player.cpp.obj
+.PHONY : Player\Player.cpp.obj
+
+Player\Player.i: Player\Player.cpp.i
+
+.PHONY : Player\Player.i
+
+# target to preprocess a source file
+Player\Player.cpp.i:
+	$(MAKE) -f CMakeFiles\Risk.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Risk.dir\Player\Player.cpp.i
+.PHONY : Player\Player.cpp.i
+
+Player\Player.s: Player\Player.cpp.s
+
+.PHONY : Player\Player.s
+
+# target to generate assembly for a file
+Player\Player.cpp.s:
+	$(MAKE) -f CMakeFiles\Risk.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Risk.dir\Player\Player.cpp.s
+.PHONY : Player\Player.cpp.s
 
 Territory\Continent.obj: Territory\Continent.cpp.obj
 
@@ -241,6 +349,18 @@ help:
 	@echo ... Risk
 	@echo ... edit_cache
 	@echo ... rebuild_cache
+	@echo ... Cards/Card.obj
+	@echo ... Cards/Card.i
+	@echo ... Cards/Card.s
+	@echo ... Cards/Deck.obj
+	@echo ... Cards/Deck.i
+	@echo ... Cards/Deck.s
+	@echo ... Cards/Hand.obj
+	@echo ... Cards/Hand.i
+	@echo ... Cards/Hand.s
+	@echo ... Player/Player.obj
+	@echo ... Player/Player.i
+	@echo ... Player/Player.s
 	@echo ... Territory/Continent.obj
 	@echo ... Territory/Continent.i
 	@echo ... Territory/Continent.s
