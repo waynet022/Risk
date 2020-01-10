@@ -28,7 +28,7 @@ public:
     Country& operator=(const Country& country);
     bool operator==(const Country& country);
 
-    string* GetCountryName();
+    string* GetCountryName() const;
     int GetCountryID();
     int GetOccupyingArmy();
     int GetContinentID();

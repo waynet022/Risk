@@ -53,7 +53,7 @@ bool Country::operator==(const Country& country){
     return isEqual;
 }
 
-string* Country::GetCountryName(){
+string* Country::GetCountryName() const{
     return country_name_;
 }
 
@@ -91,7 +91,7 @@ void Country::SetContinentID(int continent_id){
 
 void Country::DisplayCountry(){
     cout
-    <<"Country Name: "<<GetCountryName()<<endl
+    <<"Country Name: "<<*GetCountryName()<<endl
     <<"Country ID: "<<country_id_<<endl
     <<"Armies occupying country: "<<occupying_army_<<endl
    // <<"Current player occupying country: "<< occupying_player_->GetPlayerName()
