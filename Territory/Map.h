@@ -24,6 +24,9 @@ public:
     vector<Country*>* GetMapCountries();
     vector<Continent*>* GetMapContinent();
 
+    void AddCountryToMap(Country* country);
+    void AddContinentToMap(Continent* continent);
+
     void DisplayAllCountries();
     void DisplayAllContinents();
 

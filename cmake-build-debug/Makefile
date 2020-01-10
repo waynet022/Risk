@@ -124,6 +124,19 @@ Risk\fast:
 	$(MAKE) -f CMakeFiles\Risk.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Risk.dir\build
 .PHONY : Risk\fast
 
+#=============================================================================
+# Target rules for targets named TerritoryTest
+
+# Build rule for target.
+TerritoryTest: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) TerritoryTest
+.PHONY : TerritoryTest
+
+# fast build rule for target.
+TerritoryTest\fast:
+	$(MAKE) -f CMakeFiles\TerritoryTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\TerritoryTest.dir\build
+.PHONY : TerritoryTest\fast
+
 Cards\Card.obj: Cards\Card.cpp.obj
 
 .PHONY : Cards\Card.obj
@@ -131,6 +144,7 @@ Cards\Card.obj: Cards\Card.cpp.obj
 # target to build an object file
 Cards\Card.cpp.obj:
 	$(MAKE) -f CMakeFiles\Risk.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Risk.dir\Cards\Card.cpp.obj
+	$(MAKE) -f CMakeFiles\TerritoryTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\TerritoryTest.dir\Cards\Card.cpp.obj
 .PHONY : Cards\Card.cpp.obj
 
 Cards\Card.i: Cards\Card.cpp.i
@@ -140,6 +154,7 @@ Cards\Card.i: Cards\Card.cpp.i
 # target to preprocess a source file
 Cards\Card.cpp.i:
 	$(MAKE) -f CMakeFiles\Risk.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Risk.dir\Cards\Card.cpp.i
+	$(MAKE) -f CMakeFiles\TerritoryTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\TerritoryTest.dir\Cards\Card.cpp.i
 .PHONY : Cards\Card.cpp.i
 
 Cards\Card.s: Cards\Card.cpp.s
@@ -149,6 +164,7 @@ Cards\Card.s: Cards\Card.cpp.s
 # target to generate assembly for a file
 Cards\Card.cpp.s:
 	$(MAKE) -f CMakeFiles\Risk.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Risk.dir\Cards\Card.cpp.s
+	$(MAKE) -f CMakeFiles\TerritoryTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\TerritoryTest.dir\Cards\Card.cpp.s
 .PHONY : Cards\Card.cpp.s
 
 Cards\Deck.obj: Cards\Deck.cpp.obj
@@ -158,6 +174,7 @@ Cards\Deck.obj: Cards\Deck.cpp.obj
 # target to build an object file
 Cards\Deck.cpp.obj:
 	$(MAKE) -f CMakeFiles\Risk.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Risk.dir\Cards\Deck.cpp.obj
+	$(MAKE) -f CMakeFiles\TerritoryTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\TerritoryTest.dir\Cards\Deck.cpp.obj
 .PHONY : Cards\Deck.cpp.obj
 
 Cards\Deck.i: Cards\Deck.cpp.i
@@ -167,6 +184,7 @@ Cards\Deck.i: Cards\Deck.cpp.i
 # target to preprocess a source file
 Cards\Deck.cpp.i:
 	$(MAKE) -f CMakeFiles\Risk.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Risk.dir\Cards\Deck.cpp.i
+	$(MAKE) -f CMakeFiles\TerritoryTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\TerritoryTest.dir\Cards\Deck.cpp.i
 .PHONY : Cards\Deck.cpp.i
 
 Cards\Deck.s: Cards\Deck.cpp.s
@@ -176,6 +194,7 @@ Cards\Deck.s: Cards\Deck.cpp.s
 # target to generate assembly for a file
 Cards\Deck.cpp.s:
 	$(MAKE) -f CMakeFiles\Risk.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Risk.dir\Cards\Deck.cpp.s
+	$(MAKE) -f CMakeFiles\TerritoryTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\TerritoryTest.dir\Cards\Deck.cpp.s
 .PHONY : Cards\Deck.cpp.s
 
 Cards\Hand.obj: Cards\Hand.cpp.obj
@@ -185,6 +204,7 @@ Cards\Hand.obj: Cards\Hand.cpp.obj
 # target to build an object file
 Cards\Hand.cpp.obj:
 	$(MAKE) -f CMakeFiles\Risk.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Risk.dir\Cards\Hand.cpp.obj
+	$(MAKE) -f CMakeFiles\TerritoryTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\TerritoryTest.dir\Cards\Hand.cpp.obj
 .PHONY : Cards\Hand.cpp.obj
 
 Cards\Hand.i: Cards\Hand.cpp.i
@@ -194,6 +214,7 @@ Cards\Hand.i: Cards\Hand.cpp.i
 # target to preprocess a source file
 Cards\Hand.cpp.i:
 	$(MAKE) -f CMakeFiles\Risk.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Risk.dir\Cards\Hand.cpp.i
+	$(MAKE) -f CMakeFiles\TerritoryTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\TerritoryTest.dir\Cards\Hand.cpp.i
 .PHONY : Cards\Hand.cpp.i
 
 Cards\Hand.s: Cards\Hand.cpp.s
@@ -203,6 +224,7 @@ Cards\Hand.s: Cards\Hand.cpp.s
 # target to generate assembly for a file
 Cards\Hand.cpp.s:
 	$(MAKE) -f CMakeFiles\Risk.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Risk.dir\Cards\Hand.cpp.s
+	$(MAKE) -f CMakeFiles\TerritoryTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\TerritoryTest.dir\Cards\Hand.cpp.s
 .PHONY : Cards\Hand.cpp.s
 
 Player\Player.obj: Player\Player.cpp.obj
@@ -212,6 +234,7 @@ Player\Player.obj: Player\Player.cpp.obj
 # target to build an object file
 Player\Player.cpp.obj:
 	$(MAKE) -f CMakeFiles\Risk.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Risk.dir\Player\Player.cpp.obj
+	$(MAKE) -f CMakeFiles\TerritoryTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\TerritoryTest.dir\Player\Player.cpp.obj
 .PHONY : Player\Player.cpp.obj
 
 Player\Player.i: Player\Player.cpp.i
@@ -221,6 +244,7 @@ Player\Player.i: Player\Player.cpp.i
 # target to preprocess a source file
 Player\Player.cpp.i:
 	$(MAKE) -f CMakeFiles\Risk.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Risk.dir\Player\Player.cpp.i
+	$(MAKE) -f CMakeFiles\TerritoryTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\TerritoryTest.dir\Player\Player.cpp.i
 .PHONY : Player\Player.cpp.i
 
 Player\Player.s: Player\Player.cpp.s
@@ -230,6 +254,7 @@ Player\Player.s: Player\Player.cpp.s
 # target to generate assembly for a file
 Player\Player.cpp.s:
 	$(MAKE) -f CMakeFiles\Risk.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Risk.dir\Player\Player.cpp.s
+	$(MAKE) -f CMakeFiles\TerritoryTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\TerritoryTest.dir\Player\Player.cpp.s
 .PHONY : Player\Player.cpp.s
 
 Territory\Continent.obj: Territory\Continent.cpp.obj
@@ -239,6 +264,7 @@ Territory\Continent.obj: Territory\Continent.cpp.obj
 # target to build an object file
 Territory\Continent.cpp.obj:
 	$(MAKE) -f CMakeFiles\Risk.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Risk.dir\Territory\Continent.cpp.obj
+	$(MAKE) -f CMakeFiles\TerritoryTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\TerritoryTest.dir\Territory\Continent.cpp.obj
 .PHONY : Territory\Continent.cpp.obj
 
 Territory\Continent.i: Territory\Continent.cpp.i
@@ -248,6 +274,7 @@ Territory\Continent.i: Territory\Continent.cpp.i
 # target to preprocess a source file
 Territory\Continent.cpp.i:
 	$(MAKE) -f CMakeFiles\Risk.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Risk.dir\Territory\Continent.cpp.i
+	$(MAKE) -f CMakeFiles\TerritoryTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\TerritoryTest.dir\Territory\Continent.cpp.i
 .PHONY : Territory\Continent.cpp.i
 
 Territory\Continent.s: Territory\Continent.cpp.s
@@ -257,6 +284,7 @@ Territory\Continent.s: Territory\Continent.cpp.s
 # target to generate assembly for a file
 Territory\Continent.cpp.s:
 	$(MAKE) -f CMakeFiles\Risk.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Risk.dir\Territory\Continent.cpp.s
+	$(MAKE) -f CMakeFiles\TerritoryTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\TerritoryTest.dir\Territory\Continent.cpp.s
 .PHONY : Territory\Continent.cpp.s
 
 Territory\Country.obj: Territory\Country.cpp.obj
@@ -266,6 +294,7 @@ Territory\Country.obj: Territory\Country.cpp.obj
 # target to build an object file
 Territory\Country.cpp.obj:
 	$(MAKE) -f CMakeFiles\Risk.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Risk.dir\Territory\Country.cpp.obj
+	$(MAKE) -f CMakeFiles\TerritoryTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\TerritoryTest.dir\Territory\Country.cpp.obj
 .PHONY : Territory\Country.cpp.obj
 
 Territory\Country.i: Territory\Country.cpp.i
@@ -275,6 +304,7 @@ Territory\Country.i: Territory\Country.cpp.i
 # target to preprocess a source file
 Territory\Country.cpp.i:
 	$(MAKE) -f CMakeFiles\Risk.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Risk.dir\Territory\Country.cpp.i
+	$(MAKE) -f CMakeFiles\TerritoryTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\TerritoryTest.dir\Territory\Country.cpp.i
 .PHONY : Territory\Country.cpp.i
 
 Territory\Country.s: Territory\Country.cpp.s
@@ -284,6 +314,7 @@ Territory\Country.s: Territory\Country.cpp.s
 # target to generate assembly for a file
 Territory\Country.cpp.s:
 	$(MAKE) -f CMakeFiles\Risk.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Risk.dir\Territory\Country.cpp.s
+	$(MAKE) -f CMakeFiles\TerritoryTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\TerritoryTest.dir\Territory\Country.cpp.s
 .PHONY : Territory\Country.cpp.s
 
 Territory\Map.obj: Territory\Map.cpp.obj
@@ -293,6 +324,7 @@ Territory\Map.obj: Territory\Map.cpp.obj
 # target to build an object file
 Territory\Map.cpp.obj:
 	$(MAKE) -f CMakeFiles\Risk.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Risk.dir\Territory\Map.cpp.obj
+	$(MAKE) -f CMakeFiles\TerritoryTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\TerritoryTest.dir\Territory\Map.cpp.obj
 .PHONY : Territory\Map.cpp.obj
 
 Territory\Map.i: Territory\Map.cpp.i
@@ -302,6 +334,7 @@ Territory\Map.i: Territory\Map.cpp.i
 # target to preprocess a source file
 Territory\Map.cpp.i:
 	$(MAKE) -f CMakeFiles\Risk.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Risk.dir\Territory\Map.cpp.i
+	$(MAKE) -f CMakeFiles\TerritoryTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\TerritoryTest.dir\Territory\Map.cpp.i
 .PHONY : Territory\Map.cpp.i
 
 Territory\Map.s: Territory\Map.cpp.s
@@ -311,7 +344,35 @@ Territory\Map.s: Territory\Map.cpp.s
 # target to generate assembly for a file
 Territory\Map.cpp.s:
 	$(MAKE) -f CMakeFiles\Risk.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Risk.dir\Territory\Map.cpp.s
+	$(MAKE) -f CMakeFiles\TerritoryTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\TerritoryTest.dir\Territory\Map.cpp.s
 .PHONY : Territory\Map.cpp.s
+
+Territory\TerritoryDriver.obj: Territory\TerritoryDriver.cpp.obj
+
+.PHONY : Territory\TerritoryDriver.obj
+
+# target to build an object file
+Territory\TerritoryDriver.cpp.obj:
+	$(MAKE) -f CMakeFiles\TerritoryTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\TerritoryTest.dir\Territory\TerritoryDriver.cpp.obj
+.PHONY : Territory\TerritoryDriver.cpp.obj
+
+Territory\TerritoryDriver.i: Territory\TerritoryDriver.cpp.i
+
+.PHONY : Territory\TerritoryDriver.i
+
+# target to preprocess a source file
+Territory\TerritoryDriver.cpp.i:
+	$(MAKE) -f CMakeFiles\TerritoryTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\TerritoryTest.dir\Territory\TerritoryDriver.cpp.i
+.PHONY : Territory\TerritoryDriver.cpp.i
+
+Territory\TerritoryDriver.s: Territory\TerritoryDriver.cpp.s
+
+.PHONY : Territory\TerritoryDriver.s
+
+# target to generate assembly for a file
+Territory\TerritoryDriver.cpp.s:
+	$(MAKE) -f CMakeFiles\TerritoryTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\TerritoryTest.dir\Territory\TerritoryDriver.cpp.s
+.PHONY : Territory\TerritoryDriver.cpp.s
 
 main.obj: main.cpp.obj
 
@@ -347,6 +408,7 @@ help:
 	@echo ... clean
 	@echo ... depend
 	@echo ... Risk
+	@echo ... TerritoryTest
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... Cards/Card.obj
@@ -370,6 +432,9 @@ help:
 	@echo ... Territory/Map.obj
 	@echo ... Territory/Map.i
 	@echo ... Territory/Map.s
+	@echo ... Territory/TerritoryDriver.obj
+	@echo ... Territory/TerritoryDriver.i
+	@echo ... Territory/TerritoryDriver.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

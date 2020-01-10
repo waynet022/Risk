@@ -24,10 +24,7 @@ Player::~Player(){
     delete player_name_;
 }
 
-Player& Player::operator=(const Player& player){
 
-}
-bool operator==(const Player& player);
 
 string* GetPlayerName();
 int GetPlayerID();

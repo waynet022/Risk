@@ -30,6 +30,7 @@ public:
     void AddCountryToContinent(Country* country);
     bool IsCountryInContinent(Country* country);
     void DisplayCountriesInContinent();
+    void DisplayContinent();
 
 };
 

@@ -57,7 +57,11 @@ bool Continent::IsCountryInContinent(Country* country){
 }
 void Continent::DisplayCountriesInContinent(){
     for(int i = 0; i<continent_countries_->size(); i++){
-        cout<<
+        continent_countries_->at(i)->DisplayCountry();
     }
+}
+
+void Continent::DisplayContinent(){
+
 }
 

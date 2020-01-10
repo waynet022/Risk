@@ -7,7 +7,7 @@
 
 #include <iostream>
 #include <string>
-#include "../Player/Player.h"
+//#include "../Player/Player.h"
 
 using namespace std;
 
@@ -17,7 +17,7 @@ private:
     int country_id_;
     int occupying_army_;
     int continent_id_;
-    Player* occupying_player_;
+    //Player* occupying_player_;
 
 public:
     Country();
@@ -32,12 +32,12 @@ public:
     int GetCountryID();
     int GetOccupyingArmy();
     int GetContinentID();
-    Player* GetOccupyingPlayer();
+    //Player* GetOccupyingPlayer();
 
     void SetCountryName(string* country_name);
     void SetOccupyingArmy(int occupying_army);
     void SetContinentID(int continent_id);
-    void SetOccupyingPlayer(Player* occupying_player);
+    //void SetOccupyingPlayer(Player* occupying_player);
 
     void DisplayCountry();
 

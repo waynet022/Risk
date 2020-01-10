@@ -3,6 +3,7 @@
 //
 
 #include "Map.h"
+using namespace std;
 
 Map::Map(){
     *map_name_ = "MAP NAME NOT SET";
@@ -40,10 +41,21 @@ vector<Continent*>* Map::GetMapContinent(){
     return continent_;
 }
 
-void Map::DisplayAllCountries(){
 
+void Map::AddCountryToMap(Country* country){
+    countries_->push_back(country);
+}
+
+void Map::AddContinentToMap(Continent* continent){
+    continent_->push_back(continent);
+}
+
+void Map::DisplayAllCountries(){
+    for(auto& country : *countries_ )
+        country->DisplayCountry();
 }
 
 void Map::DisplayAllContinents(){
-
+    for(auto& continent: *continent_)
+        continent->DisplayContinent();
 }
