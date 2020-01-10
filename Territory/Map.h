@@ -5,8 +5,27 @@
 #ifndef RISK_MAP_H
 #define RISK_MAP_H
 
+#include <vector>
+#include "Country.h"
+#include "Continent.h""
 
 class Map {
+private:
+    string* map_name_;
+    vector<Country*>* countries_;
+    vector<Continent*>* continent_;
+
+public:
+    Map();
+    Map(string* map_name, vector<Country*>* countries, vector<Continent*>* continent);
+    Map(const Map& map);
+    ~Map();
+
+    vector<Country*>* GetMapCountries();
+    vector<Continent*>* GetMapContinent();
+
+    void DisplayAllCountries();
+    void DisplayAllContinents();
 
 };
 

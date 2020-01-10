@@ -13,10 +13,9 @@
   <component name="ChangeListManager">
     <list default="true" id="195f9a68-56a4-408e-8d45-76e1ea79620b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cards/Hand.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Cards/Hand.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cards/Hand.h" beforeDir="false" afterPath="$PROJECT_DIR$/Cards/Hand.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Territory/Map.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Territory/Map.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Territory/Map.h" beforeDir="false" afterPath="$PROJECT_DIR$/Territory/Map.h" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -41,24 +40,24 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
   <component name="RunManager">
     <configuration name="Risk" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Risk" TARGET_NAME="Risk" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Risk" RUN_TARGET_NAME="Risk">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -74,7 +73,9 @@
       <workItem from="1578205530994" duration="1517000" />
       <workItem from="1578345628606" duration="8000" />
       <workItem from="1578345732096" duration="3827000" />
-      <workItem from="1578410165489" duration="7478000" />
+      <workItem from="1578410165489" duration="8031000" />
+      <workItem from="1578634280357" duration="165000" />
+      <workItem from="1578635163858" duration="1422000" />
     </task>
     <servers />
   </component>
