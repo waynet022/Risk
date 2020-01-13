@@ -1,6 +1,6 @@
 #include <iostream>
-#include <Player\Player.h>
-#include <Territory>
+#include "Player/Player.h"
+
 
 using namespace std;
 
