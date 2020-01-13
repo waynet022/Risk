@@ -20,6 +20,7 @@ Country::Country(string* country_name, int country_id, int continent_id, int occ
    // occupying_player_ = new Player();
 }
 
+
 Country::Country(const Country &country){
     country_name_ = country.country_name_;
     country_id_ = country.country_id_;

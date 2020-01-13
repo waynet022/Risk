@@ -6,9 +6,9 @@
 
 int main(){
 
-    auto* canada = new Country((string*) "Canada", 1 , 10, 3);
-    auto* usa = new Country((string*) "United States", 2, 10, 5);
-    auto* mexico = new Country((string*) "Mexico", 3, 10, 2);
+    auto* canada = new Country(new string("Canada"), 1 , 10, 3);
+    auto* usa = new Country(new string("United States"), 2, 10, 5);
+    auto* mexico = new Country(new string("Mexico"), 3, 10, 2);
 
     auto* countries = new vector<Country*>;
 
