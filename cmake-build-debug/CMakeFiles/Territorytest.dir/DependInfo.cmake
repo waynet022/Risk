@@ -11,6 +11,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "C:/Users/Flatline/Documents/Projects/Risk/Territory/Continent.cpp" "C:/Users/Flatline/Documents/Projects/Risk/cmake-build-debug/CMakeFiles/TerritoryTest.dir/Territory/Continent.cpp.obj"
   "C:/Users/Flatline/Documents/Projects/Risk/Territory/Country.cpp" "C:/Users/Flatline/Documents/Projects/Risk/cmake-build-debug/CMakeFiles/TerritoryTest.dir/Territory/Country.cpp.obj"
   "C:/Users/Flatline/Documents/Projects/Risk/Territory/Map.cpp" "C:/Users/Flatline/Documents/Projects/Risk/cmake-build-debug/CMakeFiles/TerritoryTest.dir/Territory/Map.cpp.obj"
+  "C:/Users/Flatline/Documents/Projects/Risk/Territory/Territory.cpp" "C:/Users/Flatline/Documents/Projects/Risk/cmake-build-debug/CMakeFiles/TerritoryTest.dir/Territory/Territory.cpp.obj"
   "C:/Users/Flatline/Documents/Projects/Risk/Territory/TerritoryDriver.cpp" "C:/Users/Flatline/Documents/Projects/Risk/cmake-build-debug/CMakeFiles/TerritoryTest.dir/Territory/TerritoryDriver.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "MSVC")

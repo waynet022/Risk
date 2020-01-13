@@ -7,21 +7,20 @@
 
 #include <iostream>
 #include <string>
+#include "Territory.h"
 //#include "../Player/Player.h"
 
 using namespace std;
 
-class Country {
+class Country: public Territory {
 private:
-    string* country_name_;
-    int country_id_;
     int occupying_army_;
     int continent_id_;
     //Player* occupying_player_;
 
 public:
     Country();
-    Country(string* country_name, int country_id, int continent_id, int occupying_army);
+    Country(int continent_id, int occupying_army);
     Country(const Country &country);
     ~Country();
 

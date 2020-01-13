@@ -27,4 +27,4 @@ add_executable(TerritoryTest Territory/TerritoryDriver.cpp
         Cards/Deck.cpp
         Cards/Hand.cpp
         Player/Player.cpp
-        )
+        Territory/Territory.cpp Territory/Territory.h)

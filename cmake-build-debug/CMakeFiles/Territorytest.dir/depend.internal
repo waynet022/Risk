@@ -18,18 +18,26 @@ CMakeFiles/TerritoryTest.dir/Player/Player.cpp.obj
  C:/Users/Flatline/Documents/Projects/Risk/Player/Player.cpp
  C:/Users/Flatline/Documents/Projects/Risk/Player/Player.h
  C:/Users/Flatline/Documents/Projects/Risk/Territory/Country.h
+ C:/Users/Flatline/Documents/Projects/Risk/Territory/Territory.h
 CMakeFiles/TerritoryTest.dir/Territory/Continent.cpp.obj
  C:/Users/Flatline/Documents/Projects/Risk/Territory/Continent.cpp
  C:/Users/Flatline/Documents/Projects/Risk/Territory/Continent.h
  C:/Users/Flatline/Documents/Projects/Risk/Territory/Country.h
+ C:/Users/Flatline/Documents/Projects/Risk/Territory/Territory.h
 CMakeFiles/TerritoryTest.dir/Territory/Country.cpp.obj
  C:/Users/Flatline/Documents/Projects/Risk/Territory/Country.cpp
  C:/Users/Flatline/Documents/Projects/Risk/Territory/Country.h
+ C:/Users/Flatline/Documents/Projects/Risk/Territory/Territory.h
 CMakeFiles/TerritoryTest.dir/Territory/Map.cpp.obj
  C:/Users/Flatline/Documents/Projects/Risk/Territory/Continent.h
  C:/Users/Flatline/Documents/Projects/Risk/Territory/Country.h
  C:/Users/Flatline/Documents/Projects/Risk/Territory/Map.cpp
  C:/Users/Flatline/Documents/Projects/Risk/Territory/Map.h
+ C:/Users/Flatline/Documents/Projects/Risk/Territory/Territory.h
+CMakeFiles/TerritoryTest.dir/Territory/Territory.cpp.obj
+ C:/Users/Flatline/Documents/Projects/Risk/Territory/Territory.cpp
+ C:/Users/Flatline/Documents/Projects/Risk/Territory/Territory.h
 CMakeFiles/TerritoryTest.dir/Territory/TerritoryDriver.cpp.obj
  C:/Users/Flatline/Documents/Projects/Risk/Territory/Country.h
+ C:/Users/Flatline/Documents/Projects/Risk/Territory/Territory.h
  C:/Users/Flatline/Documents/Projects/Risk/Territory/TerritoryDriver.cpp

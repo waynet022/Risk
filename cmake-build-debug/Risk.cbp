@@ -182,6 +182,12 @@
 			<Option target="Risk"/>
 			<Option target="TerritoryTest"/>
 		</Unit>
+		<Unit filename="C:/Users/Flatline/Documents/Projects/Risk/Territory/Territory.cpp">
+			<Option target="TerritoryTest"/>
+		</Unit>
+		<Unit filename="C:/Users/Flatline/Documents/Projects/Risk/Territory/Territory.h">
+			<Option target="TerritoryTest"/>
+		</Unit>
 		<Unit filename="C:/Users/Flatline/Documents/Projects/Risk/Territory/TerritoryDriver.cpp">
 			<Option target="TerritoryTest"/>
 		</Unit>

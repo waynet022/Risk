@@ -17,19 +17,27 @@ CMakeFiles\TerritoryTest.dir\Player\Player.cpp.obj: ..\Cards\Hand.h
 CMakeFiles\TerritoryTest.dir\Player\Player.cpp.obj: ..\Player\Player.cpp
 CMakeFiles\TerritoryTest.dir\Player\Player.cpp.obj: ..\Player\Player.h
 CMakeFiles\TerritoryTest.dir\Player\Player.cpp.obj: ..\Territory\Country.h
+CMakeFiles\TerritoryTest.dir\Player\Player.cpp.obj: ..\Territory\Territory.h
 
 CMakeFiles\TerritoryTest.dir\Territory\Continent.cpp.obj: ..\Territory\Continent.cpp
 CMakeFiles\TerritoryTest.dir\Territory\Continent.cpp.obj: ..\Territory\Continent.h
 CMakeFiles\TerritoryTest.dir\Territory\Continent.cpp.obj: ..\Territory\Country.h
+CMakeFiles\TerritoryTest.dir\Territory\Continent.cpp.obj: ..\Territory\Territory.h
 
 CMakeFiles\TerritoryTest.dir\Territory\Country.cpp.obj: ..\Territory\Country.cpp
 CMakeFiles\TerritoryTest.dir\Territory\Country.cpp.obj: ..\Territory\Country.h
+CMakeFiles\TerritoryTest.dir\Territory\Country.cpp.obj: ..\Territory\Territory.h
 
 CMakeFiles\TerritoryTest.dir\Territory\Map.cpp.obj: ..\Territory\Continent.h
 CMakeFiles\TerritoryTest.dir\Territory\Map.cpp.obj: ..\Territory\Country.h
 CMakeFiles\TerritoryTest.dir\Territory\Map.cpp.obj: ..\Territory\Map.cpp
 CMakeFiles\TerritoryTest.dir\Territory\Map.cpp.obj: ..\Territory\Map.h
+CMakeFiles\TerritoryTest.dir\Territory\Map.cpp.obj: ..\Territory\Territory.h
+
+CMakeFiles\TerritoryTest.dir\Territory\Territory.cpp.obj: ..\Territory\Territory.cpp
+CMakeFiles\TerritoryTest.dir\Territory\Territory.cpp.obj: ..\Territory\Territory.h
 
 CMakeFiles\TerritoryTest.dir\Territory\TerritoryDriver.cpp.obj: ..\Territory\Country.h
+CMakeFiles\TerritoryTest.dir\Territory\TerritoryDriver.cpp.obj: ..\Territory\Territory.h
 CMakeFiles\TerritoryTest.dir\Territory\TerritoryDriver.cpp.obj: ..\Territory\TerritoryDriver.cpp
 

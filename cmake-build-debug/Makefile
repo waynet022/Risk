@@ -347,6 +347,33 @@ Territory\Map.cpp.s:
 	$(MAKE) -f CMakeFiles\TerritoryTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\TerritoryTest.dir\Territory\Map.cpp.s
 .PHONY : Territory\Map.cpp.s
 
+Territory\Territory.obj: Territory\Territory.cpp.obj
+
+.PHONY : Territory\Territory.obj
+
+# target to build an object file
+Territory\Territory.cpp.obj:
+	$(MAKE) -f CMakeFiles\TerritoryTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\TerritoryTest.dir\Territory\Territory.cpp.obj
+.PHONY : Territory\Territory.cpp.obj
+
+Territory\Territory.i: Territory\Territory.cpp.i
+
+.PHONY : Territory\Territory.i
+
+# target to preprocess a source file
+Territory\Territory.cpp.i:
+	$(MAKE) -f CMakeFiles\TerritoryTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\TerritoryTest.dir\Territory\Territory.cpp.i
+.PHONY : Territory\Territory.cpp.i
+
+Territory\Territory.s: Territory\Territory.cpp.s
+
+.PHONY : Territory\Territory.s
+
+# target to generate assembly for a file
+Territory\Territory.cpp.s:
+	$(MAKE) -f CMakeFiles\TerritoryTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\TerritoryTest.dir\Territory\Territory.cpp.s
+.PHONY : Territory\Territory.cpp.s
+
 Territory\TerritoryDriver.obj: Territory\TerritoryDriver.cpp.obj
 
 .PHONY : Territory\TerritoryDriver.obj
@@ -432,6 +459,9 @@ help:
 	@echo ... Territory/Map.obj
 	@echo ... Territory/Map.i
 	@echo ... Territory/Map.s
+	@echo ... Territory/Territory.obj
+	@echo ... Territory/Territory.i
+	@echo ... Territory/Territory.s
 	@echo ... Territory/TerritoryDriver.obj
 	@echo ... Territory/TerritoryDriver.i
 	@echo ... Territory/TerritoryDriver.s

@@ -210,6 +210,25 @@ CMakeFiles\TerritoryTest.dir\Player\Player.cpp.s: cmake_force
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\TerritoryTest.dir\Player\Player.cpp.s /c C:\Users\Flatline\Documents\Projects\Risk\Player\Player.cpp
 <<
 
+CMakeFiles\TerritoryTest.dir\Territory\Territory.cpp.obj: CMakeFiles\TerritoryTest.dir\flags.make
+CMakeFiles\TerritoryTest.dir\Territory\Territory.cpp.obj: ..\Territory\Territory.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Flatline\Documents\Projects\Risk\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/TerritoryTest.dir/Territory/Territory.cpp.obj"
+	C:\PROGRA~2\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1423~1.281\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\TerritoryTest.dir\Territory\Territory.cpp.obj /FdCMakeFiles\TerritoryTest.dir\ /FS -c C:\Users\Flatline\Documents\Projects\Risk\Territory\Territory.cpp
+<<
+
+CMakeFiles\TerritoryTest.dir\Territory\Territory.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TerritoryTest.dir/Territory/Territory.cpp.i"
+	C:\PROGRA~2\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1423~1.281\bin\Hostx86\x86\cl.exe > CMakeFiles\TerritoryTest.dir\Territory\Territory.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Flatline\Documents\Projects\Risk\Territory\Territory.cpp
+<<
+
+CMakeFiles\TerritoryTest.dir\Territory\Territory.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TerritoryTest.dir/Territory/Territory.cpp.s"
+	C:\PROGRA~2\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1423~1.281\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\TerritoryTest.dir\Territory\Territory.cpp.s /c C:\Users\Flatline\Documents\Projects\Risk\Territory\Territory.cpp
+<<
+
 # Object files for target TerritoryTest
 TerritoryTest_OBJECTS = \
 "CMakeFiles\TerritoryTest.dir\Territory\TerritoryDriver.cpp.obj" \
@@ -219,7 +238,8 @@ TerritoryTest_OBJECTS = \
 "CMakeFiles\TerritoryTest.dir\Cards\Card.cpp.obj" \
 "CMakeFiles\TerritoryTest.dir\Cards\Deck.cpp.obj" \
 "CMakeFiles\TerritoryTest.dir\Cards\Hand.cpp.obj" \
-"CMakeFiles\TerritoryTest.dir\Player\Player.cpp.obj"
+"CMakeFiles\TerritoryTest.dir\Player\Player.cpp.obj" \
+"CMakeFiles\TerritoryTest.dir\Territory\Territory.cpp.obj"
 
 # External object files for target TerritoryTest
 TerritoryTest_EXTERNAL_OBJECTS =
@@ -232,9 +252,10 @@ TerritoryTest.exe: CMakeFiles\TerritoryTest.dir\Cards\Card.cpp.obj
 TerritoryTest.exe: CMakeFiles\TerritoryTest.dir\Cards\Deck.cpp.obj
 TerritoryTest.exe: CMakeFiles\TerritoryTest.dir\Cards\Hand.cpp.obj
 TerritoryTest.exe: CMakeFiles\TerritoryTest.dir\Player\Player.cpp.obj
+TerritoryTest.exe: CMakeFiles\TerritoryTest.dir\Territory\Territory.cpp.obj
 TerritoryTest.exe: CMakeFiles\TerritoryTest.dir\build.make
 TerritoryTest.exe: CMakeFiles\TerritoryTest.dir\objects1.rsp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\Flatline\Documents\Projects\Risk\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable TerritoryTest.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\Flatline\Documents\Projects\Risk\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX executable TerritoryTest.exe"
 	"C:\Program Files\JetBrains\CLion 2019.2.5\bin\cmake\win\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\TerritoryTest.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100183~1.0\x86\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100183~1.0\x86\mt.exe --manifests  -- C:\PROGRA~2\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1423~1.281\bin\Hostx86\x86\link.exe /nologo @CMakeFiles\TerritoryTest.dir\objects1.rsp @<<
  /out:TerritoryTest.exe /implib:TerritoryTest.lib /pdb:C:\Users\Flatline\Documents\Projects\Risk\cmake-build-debug\TerritoryTest.pdb /version:0.0  /machine:X86 /debug /INCREMENTAL /subsystem:console kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib 
 <<
