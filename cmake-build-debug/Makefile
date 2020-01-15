@@ -40,19 +40,19 @@ NULL=nul
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = "C:\Program Files\JetBrains\CLion 2019.2.5\bin\cmake\win\bin\cmake.exe"
+CMAKE_COMMAND = "C:\Program Files\JetBrains\CLion 2019.2.2\bin\cmake\win\bin\cmake.exe"
 
 # The command to remove a file.
-RM = "C:\Program Files\JetBrains\CLion 2019.2.5\bin\cmake\win\bin\cmake.exe" -E remove -f
+RM = "C:\Program Files\JetBrains\CLion 2019.2.2\bin\cmake\win\bin\cmake.exe" -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\Flatline\Documents\Projects\Risk
+CMAKE_SOURCE_DIR = C:\Users\BusinessB4Pleasure\Documents\Risk
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\Flatline\Documents\Projects\Risk\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\BusinessB4Pleasure\Documents\Risk\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -60,7 +60,7 @@ CMAKE_BINARY_DIR = C:\Users\Flatline\Documents\Projects\Risk\cmake-build-debug
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	echo >nul && "C:\Program Files\JetBrains\CLion 2019.2.5\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available."
+	echo >nul && "C:\Program Files\JetBrains\CLion 2019.2.2\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available."
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -71,7 +71,7 @@ edit_cache\fast: edit_cache
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	echo >nul && "C:\Program Files\JetBrains\CLion 2019.2.5\bin\cmake\win\bin\cmake.exe" -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	echo >nul && "C:\Program Files\JetBrains\CLion 2019.2.2\bin\cmake\win\bin\cmake.exe" -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -81,9 +81,9 @@ rebuild_cache\fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Flatline\Documents\Projects\Risk\cmake-build-debug\CMakeFiles C:\Users\Flatline\Documents\Projects\Risk\cmake-build-debug\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\BusinessB4Pleasure\Documents\Risk\cmake-build-debug\CMakeFiles C:\Users\BusinessB4Pleasure\Documents\Risk\cmake-build-debug\CMakeFiles\progress.marks
 	$(MAKE) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Flatline\Documents\Projects\Risk\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\BusinessB4Pleasure\Documents\Risk\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -137,6 +137,19 @@ TerritoryTest\fast:
 	$(MAKE) -f CMakeFiles\TerritoryTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\TerritoryTest.dir\build
 .PHONY : TerritoryTest\fast
 
+#=============================================================================
+# Target rules for targets named PlayerTest
+
+# Build rule for target.
+PlayerTest: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) PlayerTest
+.PHONY : PlayerTest
+
+# fast build rule for target.
+PlayerTest\fast:
+	$(MAKE) -f CMakeFiles\PlayerTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\PlayerTest.dir\build
+.PHONY : PlayerTest\fast
+
 Cards\Card.obj: Cards\Card.cpp.obj
 
 .PHONY : Cards\Card.obj
@@ -145,6 +158,7 @@ Cards\Card.obj: Cards\Card.cpp.obj
 Cards\Card.cpp.obj:
 	$(MAKE) -f CMakeFiles\Risk.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Risk.dir\Cards\Card.cpp.obj
 	$(MAKE) -f CMakeFiles\TerritoryTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\TerritoryTest.dir\Cards\Card.cpp.obj
+	$(MAKE) -f CMakeFiles\PlayerTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\PlayerTest.dir\Cards\Card.cpp.obj
 .PHONY : Cards\Card.cpp.obj
 
 Cards\Card.i: Cards\Card.cpp.i
@@ -155,6 +169,7 @@ Cards\Card.i: Cards\Card.cpp.i
 Cards\Card.cpp.i:
 	$(MAKE) -f CMakeFiles\Risk.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Risk.dir\Cards\Card.cpp.i
 	$(MAKE) -f CMakeFiles\TerritoryTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\TerritoryTest.dir\Cards\Card.cpp.i
+	$(MAKE) -f CMakeFiles\PlayerTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\PlayerTest.dir\Cards\Card.cpp.i
 .PHONY : Cards\Card.cpp.i
 
 Cards\Card.s: Cards\Card.cpp.s
@@ -165,6 +180,7 @@ Cards\Card.s: Cards\Card.cpp.s
 Cards\Card.cpp.s:
 	$(MAKE) -f CMakeFiles\Risk.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Risk.dir\Cards\Card.cpp.s
 	$(MAKE) -f CMakeFiles\TerritoryTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\TerritoryTest.dir\Cards\Card.cpp.s
+	$(MAKE) -f CMakeFiles\PlayerTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\PlayerTest.dir\Cards\Card.cpp.s
 .PHONY : Cards\Card.cpp.s
 
 Cards\Deck.obj: Cards\Deck.cpp.obj
@@ -175,6 +191,7 @@ Cards\Deck.obj: Cards\Deck.cpp.obj
 Cards\Deck.cpp.obj:
 	$(MAKE) -f CMakeFiles\Risk.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Risk.dir\Cards\Deck.cpp.obj
 	$(MAKE) -f CMakeFiles\TerritoryTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\TerritoryTest.dir\Cards\Deck.cpp.obj
+	$(MAKE) -f CMakeFiles\PlayerTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\PlayerTest.dir\Cards\Deck.cpp.obj
 .PHONY : Cards\Deck.cpp.obj
 
 Cards\Deck.i: Cards\Deck.cpp.i
@@ -185,6 +202,7 @@ Cards\Deck.i: Cards\Deck.cpp.i
 Cards\Deck.cpp.i:
 	$(MAKE) -f CMakeFiles\Risk.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Risk.dir\Cards\Deck.cpp.i
 	$(MAKE) -f CMakeFiles\TerritoryTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\TerritoryTest.dir\Cards\Deck.cpp.i
+	$(MAKE) -f CMakeFiles\PlayerTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\PlayerTest.dir\Cards\Deck.cpp.i
 .PHONY : Cards\Deck.cpp.i
 
 Cards\Deck.s: Cards\Deck.cpp.s
@@ -195,6 +213,7 @@ Cards\Deck.s: Cards\Deck.cpp.s
 Cards\Deck.cpp.s:
 	$(MAKE) -f CMakeFiles\Risk.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Risk.dir\Cards\Deck.cpp.s
 	$(MAKE) -f CMakeFiles\TerritoryTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\TerritoryTest.dir\Cards\Deck.cpp.s
+	$(MAKE) -f CMakeFiles\PlayerTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\PlayerTest.dir\Cards\Deck.cpp.s
 .PHONY : Cards\Deck.cpp.s
 
 Cards\Hand.obj: Cards\Hand.cpp.obj
@@ -205,6 +224,7 @@ Cards\Hand.obj: Cards\Hand.cpp.obj
 Cards\Hand.cpp.obj:
 	$(MAKE) -f CMakeFiles\Risk.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Risk.dir\Cards\Hand.cpp.obj
 	$(MAKE) -f CMakeFiles\TerritoryTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\TerritoryTest.dir\Cards\Hand.cpp.obj
+	$(MAKE) -f CMakeFiles\PlayerTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\PlayerTest.dir\Cards\Hand.cpp.obj
 .PHONY : Cards\Hand.cpp.obj
 
 Cards\Hand.i: Cards\Hand.cpp.i
@@ -215,6 +235,7 @@ Cards\Hand.i: Cards\Hand.cpp.i
 Cards\Hand.cpp.i:
 	$(MAKE) -f CMakeFiles\Risk.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Risk.dir\Cards\Hand.cpp.i
 	$(MAKE) -f CMakeFiles\TerritoryTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\TerritoryTest.dir\Cards\Hand.cpp.i
+	$(MAKE) -f CMakeFiles\PlayerTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\PlayerTest.dir\Cards\Hand.cpp.i
 .PHONY : Cards\Hand.cpp.i
 
 Cards\Hand.s: Cards\Hand.cpp.s
@@ -225,6 +246,7 @@ Cards\Hand.s: Cards\Hand.cpp.s
 Cards\Hand.cpp.s:
 	$(MAKE) -f CMakeFiles\Risk.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Risk.dir\Cards\Hand.cpp.s
 	$(MAKE) -f CMakeFiles\TerritoryTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\TerritoryTest.dir\Cards\Hand.cpp.s
+	$(MAKE) -f CMakeFiles\PlayerTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\PlayerTest.dir\Cards\Hand.cpp.s
 .PHONY : Cards\Hand.cpp.s
 
 Player\Player.obj: Player\Player.cpp.obj
@@ -235,6 +257,7 @@ Player\Player.obj: Player\Player.cpp.obj
 Player\Player.cpp.obj:
 	$(MAKE) -f CMakeFiles\Risk.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Risk.dir\Player\Player.cpp.obj
 	$(MAKE) -f CMakeFiles\TerritoryTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\TerritoryTest.dir\Player\Player.cpp.obj
+	$(MAKE) -f CMakeFiles\PlayerTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\PlayerTest.dir\Player\Player.cpp.obj
 .PHONY : Player\Player.cpp.obj
 
 Player\Player.i: Player\Player.cpp.i
@@ -245,6 +268,7 @@ Player\Player.i: Player\Player.cpp.i
 Player\Player.cpp.i:
 	$(MAKE) -f CMakeFiles\Risk.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Risk.dir\Player\Player.cpp.i
 	$(MAKE) -f CMakeFiles\TerritoryTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\TerritoryTest.dir\Player\Player.cpp.i
+	$(MAKE) -f CMakeFiles\PlayerTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\PlayerTest.dir\Player\Player.cpp.i
 .PHONY : Player\Player.cpp.i
 
 Player\Player.s: Player\Player.cpp.s
@@ -255,7 +279,35 @@ Player\Player.s: Player\Player.cpp.s
 Player\Player.cpp.s:
 	$(MAKE) -f CMakeFiles\Risk.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Risk.dir\Player\Player.cpp.s
 	$(MAKE) -f CMakeFiles\TerritoryTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\TerritoryTest.dir\Player\Player.cpp.s
+	$(MAKE) -f CMakeFiles\PlayerTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\PlayerTest.dir\Player\Player.cpp.s
 .PHONY : Player\Player.cpp.s
+
+Player\PlayersTest.obj: Player\PlayersTest.cpp.obj
+
+.PHONY : Player\PlayersTest.obj
+
+# target to build an object file
+Player\PlayersTest.cpp.obj:
+	$(MAKE) -f CMakeFiles\PlayerTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\PlayerTest.dir\Player\PlayersTest.cpp.obj
+.PHONY : Player\PlayersTest.cpp.obj
+
+Player\PlayersTest.i: Player\PlayersTest.cpp.i
+
+.PHONY : Player\PlayersTest.i
+
+# target to preprocess a source file
+Player\PlayersTest.cpp.i:
+	$(MAKE) -f CMakeFiles\PlayerTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\PlayerTest.dir\Player\PlayersTest.cpp.i
+.PHONY : Player\PlayersTest.cpp.i
+
+Player\PlayersTest.s: Player\PlayersTest.cpp.s
+
+.PHONY : Player\PlayersTest.s
+
+# target to generate assembly for a file
+Player\PlayersTest.cpp.s:
+	$(MAKE) -f CMakeFiles\PlayerTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\PlayerTest.dir\Player\PlayersTest.cpp.s
+.PHONY : Player\PlayersTest.cpp.s
 
 Territory\Continent.obj: Territory\Continent.cpp.obj
 
@@ -265,6 +317,7 @@ Territory\Continent.obj: Territory\Continent.cpp.obj
 Territory\Continent.cpp.obj:
 	$(MAKE) -f CMakeFiles\Risk.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Risk.dir\Territory\Continent.cpp.obj
 	$(MAKE) -f CMakeFiles\TerritoryTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\TerritoryTest.dir\Territory\Continent.cpp.obj
+	$(MAKE) -f CMakeFiles\PlayerTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\PlayerTest.dir\Territory\Continent.cpp.obj
 .PHONY : Territory\Continent.cpp.obj
 
 Territory\Continent.i: Territory\Continent.cpp.i
@@ -275,6 +328,7 @@ Territory\Continent.i: Territory\Continent.cpp.i
 Territory\Continent.cpp.i:
 	$(MAKE) -f CMakeFiles\Risk.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Risk.dir\Territory\Continent.cpp.i
 	$(MAKE) -f CMakeFiles\TerritoryTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\TerritoryTest.dir\Territory\Continent.cpp.i
+	$(MAKE) -f CMakeFiles\PlayerTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\PlayerTest.dir\Territory\Continent.cpp.i
 .PHONY : Territory\Continent.cpp.i
 
 Territory\Continent.s: Territory\Continent.cpp.s
@@ -285,6 +339,7 @@ Territory\Continent.s: Territory\Continent.cpp.s
 Territory\Continent.cpp.s:
 	$(MAKE) -f CMakeFiles\Risk.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Risk.dir\Territory\Continent.cpp.s
 	$(MAKE) -f CMakeFiles\TerritoryTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\TerritoryTest.dir\Territory\Continent.cpp.s
+	$(MAKE) -f CMakeFiles\PlayerTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\PlayerTest.dir\Territory\Continent.cpp.s
 .PHONY : Territory\Continent.cpp.s
 
 Territory\Country.obj: Territory\Country.cpp.obj
@@ -295,6 +350,7 @@ Territory\Country.obj: Territory\Country.cpp.obj
 Territory\Country.cpp.obj:
 	$(MAKE) -f CMakeFiles\Risk.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Risk.dir\Territory\Country.cpp.obj
 	$(MAKE) -f CMakeFiles\TerritoryTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\TerritoryTest.dir\Territory\Country.cpp.obj
+	$(MAKE) -f CMakeFiles\PlayerTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\PlayerTest.dir\Territory\Country.cpp.obj
 .PHONY : Territory\Country.cpp.obj
 
 Territory\Country.i: Territory\Country.cpp.i
@@ -305,6 +361,7 @@ Territory\Country.i: Territory\Country.cpp.i
 Territory\Country.cpp.i:
 	$(MAKE) -f CMakeFiles\Risk.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Risk.dir\Territory\Country.cpp.i
 	$(MAKE) -f CMakeFiles\TerritoryTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\TerritoryTest.dir\Territory\Country.cpp.i
+	$(MAKE) -f CMakeFiles\PlayerTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\PlayerTest.dir\Territory\Country.cpp.i
 .PHONY : Territory\Country.cpp.i
 
 Territory\Country.s: Territory\Country.cpp.s
@@ -315,6 +372,7 @@ Territory\Country.s: Territory\Country.cpp.s
 Territory\Country.cpp.s:
 	$(MAKE) -f CMakeFiles\Risk.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Risk.dir\Territory\Country.cpp.s
 	$(MAKE) -f CMakeFiles\TerritoryTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\TerritoryTest.dir\Territory\Country.cpp.s
+	$(MAKE) -f CMakeFiles\PlayerTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\PlayerTest.dir\Territory\Country.cpp.s
 .PHONY : Territory\Country.cpp.s
 
 Territory\Map.obj: Territory\Map.cpp.obj
@@ -325,6 +383,7 @@ Territory\Map.obj: Territory\Map.cpp.obj
 Territory\Map.cpp.obj:
 	$(MAKE) -f CMakeFiles\Risk.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Risk.dir\Territory\Map.cpp.obj
 	$(MAKE) -f CMakeFiles\TerritoryTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\TerritoryTest.dir\Territory\Map.cpp.obj
+	$(MAKE) -f CMakeFiles\PlayerTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\PlayerTest.dir\Territory\Map.cpp.obj
 .PHONY : Territory\Map.cpp.obj
 
 Territory\Map.i: Territory\Map.cpp.i
@@ -335,6 +394,7 @@ Territory\Map.i: Territory\Map.cpp.i
 Territory\Map.cpp.i:
 	$(MAKE) -f CMakeFiles\Risk.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Risk.dir\Territory\Map.cpp.i
 	$(MAKE) -f CMakeFiles\TerritoryTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\TerritoryTest.dir\Territory\Map.cpp.i
+	$(MAKE) -f CMakeFiles\PlayerTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\PlayerTest.dir\Territory\Map.cpp.i
 .PHONY : Territory\Map.cpp.i
 
 Territory\Map.s: Territory\Map.cpp.s
@@ -345,6 +405,7 @@ Territory\Map.s: Territory\Map.cpp.s
 Territory\Map.cpp.s:
 	$(MAKE) -f CMakeFiles\Risk.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Risk.dir\Territory\Map.cpp.s
 	$(MAKE) -f CMakeFiles\TerritoryTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\TerritoryTest.dir\Territory\Map.cpp.s
+	$(MAKE) -f CMakeFiles\PlayerTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\PlayerTest.dir\Territory\Map.cpp.s
 .PHONY : Territory\Map.cpp.s
 
 Territory\Territory.obj: Territory\Territory.cpp.obj
@@ -354,6 +415,7 @@ Territory\Territory.obj: Territory\Territory.cpp.obj
 # target to build an object file
 Territory\Territory.cpp.obj:
 	$(MAKE) -f CMakeFiles\TerritoryTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\TerritoryTest.dir\Territory\Territory.cpp.obj
+	$(MAKE) -f CMakeFiles\PlayerTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\PlayerTest.dir\Territory\Territory.cpp.obj
 .PHONY : Territory\Territory.cpp.obj
 
 Territory\Territory.i: Territory\Territory.cpp.i
@@ -363,6 +425,7 @@ Territory\Territory.i: Territory\Territory.cpp.i
 # target to preprocess a source file
 Territory\Territory.cpp.i:
 	$(MAKE) -f CMakeFiles\TerritoryTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\TerritoryTest.dir\Territory\Territory.cpp.i
+	$(MAKE) -f CMakeFiles\PlayerTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\PlayerTest.dir\Territory\Territory.cpp.i
 .PHONY : Territory\Territory.cpp.i
 
 Territory\Territory.s: Territory\Territory.cpp.s
@@ -372,6 +435,7 @@ Territory\Territory.s: Territory\Territory.cpp.s
 # target to generate assembly for a file
 Territory\Territory.cpp.s:
 	$(MAKE) -f CMakeFiles\TerritoryTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\TerritoryTest.dir\Territory\Territory.cpp.s
+	$(MAKE) -f CMakeFiles\PlayerTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\PlayerTest.dir\Territory\Territory.cpp.s
 .PHONY : Territory\Territory.cpp.s
 
 Territory\TerritoryDriver.obj: Territory\TerritoryDriver.cpp.obj
@@ -436,6 +500,7 @@ help:
 	@echo ... depend
 	@echo ... Risk
 	@echo ... TerritoryTest
+	@echo ... PlayerTest
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... Cards/Card.obj
@@ -450,6 +515,9 @@ help:
 	@echo ... Player/Player.obj
 	@echo ... Player/Player.i
 	@echo ... Player/Player.s
+	@echo ... Player/PlayersTest.obj
+	@echo ... Player/PlayersTest.i
+	@echo ... Player/PlayersTest.s
 	@echo ... Territory/Continent.obj
 	@echo ... Territory/Continent.i
 	@echo ... Territory/Continent.s

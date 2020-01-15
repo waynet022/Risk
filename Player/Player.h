@@ -38,8 +38,9 @@ public:
     void SetPlayerID(int player_id);
 
     void AddCountryToPlayer(Country* country);
+    void AddCardToPlayerHand(Card* card);
 
-    void DisplayPlayer();
+    virtual void DisplayPlayer();
 
 };
 

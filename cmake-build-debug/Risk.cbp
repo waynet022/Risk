@@ -8,18 +8,18 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="C:/Users/Flatline/Documents/Projects/Risk/cmake-build-debug"/>
+				<Option working_dir="C:/Users/BusinessB4Pleasure/Documents/Risk/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="nmake /NOLOGO /f C:\Users\Flatline\Documents\Projects\Risk\cmake-build-debug\Makefile VERBOSE=1 all"/>
-					<CompileFile command="nmake /NOLOGO /f C:\Users\Flatline\Documents\Projects\Risk\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="nmake /NOLOGO /f C:\Users\Flatline\Documents\Projects\Risk\cmake-build-debug\Makefile VERBOSE=1 clean"/>
-					<DistClean command="nmake /NOLOGO /f C:\Users\Flatline\Documents\Projects\Risk\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<Build command="nmake /NOLOGO /f C:\Users\BusinessB4Pleasure\Documents\Risk\cmake-build-debug\Makefile VERBOSE=1 all"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\BusinessB4Pleasure\Documents\Risk\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\BusinessB4Pleasure\Documents\Risk\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\BusinessB4Pleasure\Documents\Risk\cmake-build-debug\Makefile VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Risk">
-				<Option output="C:/Users/Flatline/Documents/Projects/Risk/cmake-build-debug/Risk.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/Flatline/Documents/Projects/Risk/cmake-build-debug"/>
+				<Option output="C:/Users/BusinessB4Pleasure/Documents/Risk/cmake-build-debug/Risk.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/BusinessB4Pleasure/Documents/Risk/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="msvc8"/>
@@ -33,15 +33,15 @@
 					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\cppwinrt"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="nmake /NOLOGO /f C:\Users\Flatline\Documents\Projects\Risk\cmake-build-debug\Makefile VERBOSE=1 Risk"/>
-					<CompileFile command="nmake /NOLOGO /f C:\Users\Flatline\Documents\Projects\Risk\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="nmake /NOLOGO /f C:\Users\Flatline\Documents\Projects\Risk\cmake-build-debug\Makefile VERBOSE=1 clean"/>
-					<DistClean command="nmake /NOLOGO /f C:\Users\Flatline\Documents\Projects\Risk\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<Build command="nmake /NOLOGO /f C:\Users\BusinessB4Pleasure\Documents\Risk\cmake-build-debug\Makefile VERBOSE=1 Risk"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\BusinessB4Pleasure\Documents\Risk\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\BusinessB4Pleasure\Documents\Risk\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\BusinessB4Pleasure\Documents\Risk\cmake-build-debug\Makefile VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Risk/fast">
-				<Option output="C:/Users/Flatline/Documents/Projects/Risk/cmake-build-debug/Risk.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/Flatline/Documents/Projects/Risk/cmake-build-debug"/>
+				<Option output="C:/Users/BusinessB4Pleasure/Documents/Risk/cmake-build-debug/Risk.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/BusinessB4Pleasure/Documents/Risk/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="msvc8"/>
@@ -55,15 +55,15 @@
 					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\cppwinrt"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="nmake /NOLOGO /f C:\Users\Flatline\Documents\Projects\Risk\cmake-build-debug\Makefile VERBOSE=1 Risk/fast"/>
-					<CompileFile command="nmake /NOLOGO /f C:\Users\Flatline\Documents\Projects\Risk\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="nmake /NOLOGO /f C:\Users\Flatline\Documents\Projects\Risk\cmake-build-debug\Makefile VERBOSE=1 clean"/>
-					<DistClean command="nmake /NOLOGO /f C:\Users\Flatline\Documents\Projects\Risk\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<Build command="nmake /NOLOGO /f C:\Users\BusinessB4Pleasure\Documents\Risk\cmake-build-debug\Makefile VERBOSE=1 Risk/fast"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\BusinessB4Pleasure\Documents\Risk\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\BusinessB4Pleasure\Documents\Risk\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\BusinessB4Pleasure\Documents\Risk\cmake-build-debug\Makefile VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="TerritoryTest">
-				<Option output="C:/Users/Flatline/Documents/Projects/Risk/cmake-build-debug/TerritoryTest.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/Flatline/Documents/Projects/Risk/cmake-build-debug"/>
+				<Option output="C:/Users/BusinessB4Pleasure/Documents/Risk/cmake-build-debug/TerritoryTest.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/BusinessB4Pleasure/Documents/Risk/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="msvc8"/>
@@ -77,15 +77,15 @@
 					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\cppwinrt"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="nmake /NOLOGO /f C:\Users\Flatline\Documents\Projects\Risk\cmake-build-debug\Makefile VERBOSE=1 TerritoryTest"/>
-					<CompileFile command="nmake /NOLOGO /f C:\Users\Flatline\Documents\Projects\Risk\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="nmake /NOLOGO /f C:\Users\Flatline\Documents\Projects\Risk\cmake-build-debug\Makefile VERBOSE=1 clean"/>
-					<DistClean command="nmake /NOLOGO /f C:\Users\Flatline\Documents\Projects\Risk\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<Build command="nmake /NOLOGO /f C:\Users\BusinessB4Pleasure\Documents\Risk\cmake-build-debug\Makefile VERBOSE=1 TerritoryTest"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\BusinessB4Pleasure\Documents\Risk\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\BusinessB4Pleasure\Documents\Risk\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\BusinessB4Pleasure\Documents\Risk\cmake-build-debug\Makefile VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="TerritoryTest/fast">
-				<Option output="C:/Users/Flatline/Documents/Projects/Risk/cmake-build-debug/TerritoryTest.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/Flatline/Documents/Projects/Risk/cmake-build-debug"/>
+				<Option output="C:/Users/BusinessB4Pleasure/Documents/Risk/cmake-build-debug/TerritoryTest.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/BusinessB4Pleasure/Documents/Risk/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="msvc8"/>
@@ -99,102 +99,165 @@
 					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\cppwinrt"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="nmake /NOLOGO /f C:\Users\Flatline\Documents\Projects\Risk\cmake-build-debug\Makefile VERBOSE=1 TerritoryTest/fast"/>
-					<CompileFile command="nmake /NOLOGO /f C:\Users\Flatline\Documents\Projects\Risk\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="nmake /NOLOGO /f C:\Users\Flatline\Documents\Projects\Risk\cmake-build-debug\Makefile VERBOSE=1 clean"/>
-					<DistClean command="nmake /NOLOGO /f C:\Users\Flatline\Documents\Projects\Risk\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<Build command="nmake /NOLOGO /f C:\Users\BusinessB4Pleasure\Documents\Risk\cmake-build-debug\Makefile VERBOSE=1 TerritoryTest/fast"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\BusinessB4Pleasure\Documents\Risk\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\BusinessB4Pleasure\Documents\Risk\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\BusinessB4Pleasure\Documents\Risk\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="PlayerTest">
+				<Option output="C:/Users/BusinessB4Pleasure/Documents/Risk/cmake-build-debug/PlayerTest.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/BusinessB4Pleasure/Documents/Risk/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\ATLMFC\include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\BusinessB4Pleasure\Documents\Risk\cmake-build-debug\Makefile VERBOSE=1 PlayerTest"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\BusinessB4Pleasure\Documents\Risk\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\BusinessB4Pleasure\Documents\Risk\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\BusinessB4Pleasure\Documents\Risk\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="PlayerTest/fast">
+				<Option output="C:/Users/BusinessB4Pleasure/Documents/Risk/cmake-build-debug/PlayerTest.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/BusinessB4Pleasure/Documents/Risk/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\ATLMFC\include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\BusinessB4Pleasure\Documents\Risk\cmake-build-debug\Makefile VERBOSE=1 PlayerTest/fast"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\BusinessB4Pleasure\Documents\Risk\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\BusinessB4Pleasure\Documents\Risk\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\BusinessB4Pleasure\Documents\Risk\cmake-build-debug\Makefile VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="C:/Users/Flatline/Documents/Projects/Risk/cmake-build-debug"/>
+				<Option working_dir="C:/Users/BusinessB4Pleasure/Documents/Risk/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="nmake /NOLOGO /f C:\Users\Flatline\Documents\Projects\Risk\cmake-build-debug\Makefile VERBOSE=1 edit_cache"/>
-					<CompileFile command="nmake /NOLOGO /f C:\Users\Flatline\Documents\Projects\Risk\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="nmake /NOLOGO /f C:\Users\Flatline\Documents\Projects\Risk\cmake-build-debug\Makefile VERBOSE=1 clean"/>
-					<DistClean command="nmake /NOLOGO /f C:\Users\Flatline\Documents\Projects\Risk\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<Build command="nmake /NOLOGO /f C:\Users\BusinessB4Pleasure\Documents\Risk\cmake-build-debug\Makefile VERBOSE=1 edit_cache"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\BusinessB4Pleasure\Documents\Risk\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\BusinessB4Pleasure\Documents\Risk\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\BusinessB4Pleasure\Documents\Risk\cmake-build-debug\Makefile VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="C:/Users/Flatline/Documents/Projects/Risk/cmake-build-debug"/>
+				<Option working_dir="C:/Users/BusinessB4Pleasure/Documents/Risk/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="nmake /NOLOGO /f C:\Users\Flatline\Documents\Projects\Risk\cmake-build-debug\Makefile VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="nmake /NOLOGO /f C:\Users\Flatline\Documents\Projects\Risk\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="nmake /NOLOGO /f C:\Users\Flatline\Documents\Projects\Risk\cmake-build-debug\Makefile VERBOSE=1 clean"/>
-					<DistClean command="nmake /NOLOGO /f C:\Users\Flatline\Documents\Projects\Risk\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<Build command="nmake /NOLOGO /f C:\Users\BusinessB4Pleasure\Documents\Risk\cmake-build-debug\Makefile VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\BusinessB4Pleasure\Documents\Risk\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\BusinessB4Pleasure\Documents\Risk\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\BusinessB4Pleasure\Documents\Risk\cmake-build-debug\Makefile VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Users/Flatline/Documents/Projects/Risk/Cards/Card.cpp">
+		<Unit filename="C:/Users/BusinessB4Pleasure/Documents/Risk/Cards/Card.cpp">
 			<Option target="Risk"/>
 			<Option target="TerritoryTest"/>
+			<Option target="PlayerTest"/>
 		</Unit>
-		<Unit filename="C:/Users/Flatline/Documents/Projects/Risk/Cards/Card.h">
+		<Unit filename="C:/Users/BusinessB4Pleasure/Documents/Risk/Cards/Card.h">
 			<Option target="Risk"/>
 			<Option target="TerritoryTest"/>
+			<Option target="PlayerTest"/>
 		</Unit>
-		<Unit filename="C:/Users/Flatline/Documents/Projects/Risk/Cards/Deck.cpp">
+		<Unit filename="C:/Users/BusinessB4Pleasure/Documents/Risk/Cards/Deck.cpp">
 			<Option target="Risk"/>
 			<Option target="TerritoryTest"/>
+			<Option target="PlayerTest"/>
 		</Unit>
-		<Unit filename="C:/Users/Flatline/Documents/Projects/Risk/Cards/Deck.h">
+		<Unit filename="C:/Users/BusinessB4Pleasure/Documents/Risk/Cards/Deck.h">
 			<Option target="Risk"/>
 			<Option target="TerritoryTest"/>
+			<Option target="PlayerTest"/>
 		</Unit>
-		<Unit filename="C:/Users/Flatline/Documents/Projects/Risk/Cards/Hand.cpp">
+		<Unit filename="C:/Users/BusinessB4Pleasure/Documents/Risk/Cards/Hand.cpp">
 			<Option target="Risk"/>
 			<Option target="TerritoryTest"/>
+			<Option target="PlayerTest"/>
 		</Unit>
-		<Unit filename="C:/Users/Flatline/Documents/Projects/Risk/Cards/Hand.h">
+		<Unit filename="C:/Users/BusinessB4Pleasure/Documents/Risk/Cards/Hand.h">
 			<Option target="Risk"/>
 			<Option target="TerritoryTest"/>
+			<Option target="PlayerTest"/>
 		</Unit>
-		<Unit filename="C:/Users/Flatline/Documents/Projects/Risk/Player/Player.cpp">
+		<Unit filename="C:/Users/BusinessB4Pleasure/Documents/Risk/Player/Player.cpp">
 			<Option target="Risk"/>
 			<Option target="TerritoryTest"/>
+			<Option target="PlayerTest"/>
 		</Unit>
-		<Unit filename="C:/Users/Flatline/Documents/Projects/Risk/Player/Player.h">
+		<Unit filename="C:/Users/BusinessB4Pleasure/Documents/Risk/Player/Player.h">
 			<Option target="Risk"/>
 			<Option target="TerritoryTest"/>
+			<Option target="PlayerTest"/>
 		</Unit>
-		<Unit filename="C:/Users/Flatline/Documents/Projects/Risk/Territory/Continent.cpp">
+		<Unit filename="C:/Users/BusinessB4Pleasure/Documents/Risk/Player/PlayersTest.cpp">
+			<Option target="PlayerTest"/>
+		</Unit>
+		<Unit filename="C:/Users/BusinessB4Pleasure/Documents/Risk/Territory/Continent.cpp">
 			<Option target="Risk"/>
 			<Option target="TerritoryTest"/>
+			<Option target="PlayerTest"/>
 		</Unit>
-		<Unit filename="C:/Users/Flatline/Documents/Projects/Risk/Territory/Continent.h">
+		<Unit filename="C:/Users/BusinessB4Pleasure/Documents/Risk/Territory/Continent.h">
 			<Option target="Risk"/>
 			<Option target="TerritoryTest"/>
+			<Option target="PlayerTest"/>
 		</Unit>
-		<Unit filename="C:/Users/Flatline/Documents/Projects/Risk/Territory/Country.cpp">
+		<Unit filename="C:/Users/BusinessB4Pleasure/Documents/Risk/Territory/Country.cpp">
 			<Option target="Risk"/>
 			<Option target="TerritoryTest"/>
+			<Option target="PlayerTest"/>
 		</Unit>
-		<Unit filename="C:/Users/Flatline/Documents/Projects/Risk/Territory/Country.h">
+		<Unit filename="C:/Users/BusinessB4Pleasure/Documents/Risk/Territory/Country.h">
 			<Option target="Risk"/>
 			<Option target="TerritoryTest"/>
+			<Option target="PlayerTest"/>
 		</Unit>
-		<Unit filename="C:/Users/Flatline/Documents/Projects/Risk/Territory/Map.cpp">
+		<Unit filename="C:/Users/BusinessB4Pleasure/Documents/Risk/Territory/Map.cpp">
 			<Option target="Risk"/>
 			<Option target="TerritoryTest"/>
+			<Option target="PlayerTest"/>
 		</Unit>
-		<Unit filename="C:/Users/Flatline/Documents/Projects/Risk/Territory/Map.h">
+		<Unit filename="C:/Users/BusinessB4Pleasure/Documents/Risk/Territory/Map.h">
 			<Option target="Risk"/>
 			<Option target="TerritoryTest"/>
+			<Option target="PlayerTest"/>
 		</Unit>
-		<Unit filename="C:/Users/Flatline/Documents/Projects/Risk/Territory/Territory.cpp">
+		<Unit filename="C:/Users/BusinessB4Pleasure/Documents/Risk/Territory/Territory.cpp">
+			<Option target="TerritoryTest"/>
+			<Option target="PlayerTest"/>
+		</Unit>
+		<Unit filename="C:/Users/BusinessB4Pleasure/Documents/Risk/Territory/Territory.h">
+			<Option target="TerritoryTest"/>
+			<Option target="PlayerTest"/>
+		</Unit>
+		<Unit filename="C:/Users/BusinessB4Pleasure/Documents/Risk/Territory/TerritoryDriver.cpp">
 			<Option target="TerritoryTest"/>
 		</Unit>
-		<Unit filename="C:/Users/Flatline/Documents/Projects/Risk/Territory/Territory.h">
-			<Option target="TerritoryTest"/>
-		</Unit>
-		<Unit filename="C:/Users/Flatline/Documents/Projects/Risk/Territory/TerritoryDriver.cpp">
-			<Option target="TerritoryTest"/>
-		</Unit>
-		<Unit filename="C:/Users/Flatline/Documents/Projects/Risk/main.cpp">
+		<Unit filename="C:/Users/BusinessB4Pleasure/Documents/Risk/main.cpp">
 			<Option target="Risk"/>
 		</Unit>
-		<Unit filename="C:/Users/Flatline/Documents/Projects/Risk/CMakeLists.txt">
+		<Unit filename="C:/Users/BusinessB4Pleasure/Documents/Risk/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>
