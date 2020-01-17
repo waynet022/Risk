@@ -35,3 +35,7 @@ Countries:
 33 Guyana
 34
 35
+
+Continents:
+1 North America
+2 South America
