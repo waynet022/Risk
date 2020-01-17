@@ -4,17 +4,17 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Users/BusinessB4Pleasure/Documents/Risk/Cards/Card.cpp" "C:/Users/BusinessB4Pleasure/Documents/Risk/cmake-build-debug/CMakeFiles/TerritoryTest.dir/Cards/Card.cpp.obj"
-  "C:/Users/BusinessB4Pleasure/Documents/Risk/Cards/Deck.cpp" "C:/Users/BusinessB4Pleasure/Documents/Risk/cmake-build-debug/CMakeFiles/TerritoryTest.dir/Cards/Deck.cpp.obj"
-  "C:/Users/BusinessB4Pleasure/Documents/Risk/Cards/Hand.cpp" "C:/Users/BusinessB4Pleasure/Documents/Risk/cmake-build-debug/CMakeFiles/TerritoryTest.dir/Cards/Hand.cpp.obj"
-  "C:/Users/BusinessB4Pleasure/Documents/Risk/Player/Player.cpp" "C:/Users/BusinessB4Pleasure/Documents/Risk/cmake-build-debug/CMakeFiles/TerritoryTest.dir/Player/Player.cpp.obj"
-  "C:/Users/BusinessB4Pleasure/Documents/Risk/Territory/Continent.cpp" "C:/Users/BusinessB4Pleasure/Documents/Risk/cmake-build-debug/CMakeFiles/TerritoryTest.dir/Territory/Continent.cpp.obj"
-  "C:/Users/BusinessB4Pleasure/Documents/Risk/Territory/Country.cpp" "C:/Users/BusinessB4Pleasure/Documents/Risk/cmake-build-debug/CMakeFiles/TerritoryTest.dir/Territory/Country.cpp.obj"
-  "C:/Users/BusinessB4Pleasure/Documents/Risk/Territory/Map.cpp" "C:/Users/BusinessB4Pleasure/Documents/Risk/cmake-build-debug/CMakeFiles/TerritoryTest.dir/Territory/Map.cpp.obj"
-  "C:/Users/BusinessB4Pleasure/Documents/Risk/Territory/Territory.cpp" "C:/Users/BusinessB4Pleasure/Documents/Risk/cmake-build-debug/CMakeFiles/TerritoryTest.dir/Territory/Territory.cpp.obj"
-  "C:/Users/BusinessB4Pleasure/Documents/Risk/Territory/TerritoryDriver.cpp" "C:/Users/BusinessB4Pleasure/Documents/Risk/cmake-build-debug/CMakeFiles/TerritoryTest.dir/Territory/TerritoryDriver.cpp.obj"
+  "/cygdrive/c/Users/BusinessB4Pleasure/Documents/Risk/Cards/Card.cpp" "/cygdrive/c/Users/BusinessB4Pleasure/Documents/Risk/cmake-build-debug/CMakeFiles/TerritoryTest.dir/Cards/Card.cpp.o"
+  "/cygdrive/c/Users/BusinessB4Pleasure/Documents/Risk/Cards/Deck.cpp" "/cygdrive/c/Users/BusinessB4Pleasure/Documents/Risk/cmake-build-debug/CMakeFiles/TerritoryTest.dir/Cards/Deck.cpp.o"
+  "/cygdrive/c/Users/BusinessB4Pleasure/Documents/Risk/Cards/Hand.cpp" "/cygdrive/c/Users/BusinessB4Pleasure/Documents/Risk/cmake-build-debug/CMakeFiles/TerritoryTest.dir/Cards/Hand.cpp.o"
+  "/cygdrive/c/Users/BusinessB4Pleasure/Documents/Risk/Player/Player.cpp" "/cygdrive/c/Users/BusinessB4Pleasure/Documents/Risk/cmake-build-debug/CMakeFiles/TerritoryTest.dir/Player/Player.cpp.o"
+  "/cygdrive/c/Users/BusinessB4Pleasure/Documents/Risk/Territory/Continent.cpp" "/cygdrive/c/Users/BusinessB4Pleasure/Documents/Risk/cmake-build-debug/CMakeFiles/TerritoryTest.dir/Territory/Continent.cpp.o"
+  "/cygdrive/c/Users/BusinessB4Pleasure/Documents/Risk/Territory/Country.cpp" "/cygdrive/c/Users/BusinessB4Pleasure/Documents/Risk/cmake-build-debug/CMakeFiles/TerritoryTest.dir/Territory/Country.cpp.o"
+  "/cygdrive/c/Users/BusinessB4Pleasure/Documents/Risk/Territory/Map.cpp" "/cygdrive/c/Users/BusinessB4Pleasure/Documents/Risk/cmake-build-debug/CMakeFiles/TerritoryTest.dir/Territory/Map.cpp.o"
+  "/cygdrive/c/Users/BusinessB4Pleasure/Documents/Risk/Territory/Territory.cpp" "/cygdrive/c/Users/BusinessB4Pleasure/Documents/Risk/cmake-build-debug/CMakeFiles/TerritoryTest.dir/Territory/Territory.cpp.o"
+  "/cygdrive/c/Users/BusinessB4Pleasure/Documents/Risk/Territory/TerritoryDriver.cpp" "/cygdrive/c/Users/BusinessB4Pleasure/Documents/Risk/cmake-build-debug/CMakeFiles/TerritoryTest.dir/Territory/TerritoryDriver.cpp.o"
   )
-set(CMAKE_CXX_COMPILER_ID "MSVC")
+set(CMAKE_CXX_COMPILER_ID "GNU")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH

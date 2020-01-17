@@ -41,4 +41,4 @@ add_executable(PlayerTest
         Cards/Deck.cpp
         Cards/Hand.cpp
         Player/Player.cpp
-        Territory/Territory.cpp Territory/Territory.h)
+        Territory/Territory.cpp Territory/Territory.h FileReader/MapFileReader.cpp FileReader/MapFileReader.h)

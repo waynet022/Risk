@@ -1,5 +1,5 @@
-C:/Users/BusinessB4Pleasure/Documents/Risk/cmake-build-debug/CMakeFiles/Risk.dir
-C:/Users/BusinessB4Pleasure/Documents/Risk/cmake-build-debug/CMakeFiles/TerritoryTest.dir
-C:/Users/BusinessB4Pleasure/Documents/Risk/cmake-build-debug/CMakeFiles/PlayerTest.dir
-C:/Users/BusinessB4Pleasure/Documents/Risk/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/BusinessB4Pleasure/Documents/Risk/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/cygdrive/c/Users/BusinessB4Pleasure/Documents/Risk/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/cygdrive/c/Users/BusinessB4Pleasure/Documents/Risk/cmake-build-debug/CMakeFiles/edit_cache.dir
+/cygdrive/c/Users/BusinessB4Pleasure/Documents/Risk/cmake-build-debug/CMakeFiles/Risk.dir
+/cygdrive/c/Users/BusinessB4Pleasure/Documents/Risk/cmake-build-debug/CMakeFiles/PlayerTest.dir
+/cygdrive/c/Users/BusinessB4Pleasure/Documents/Risk/cmake-build-debug/CMakeFiles/TerritoryTest.dir

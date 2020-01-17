@@ -1,0 +1,37 @@
+Countries:
+1 Canada
+2 USA
+3 Mexico
+4 Guatemala
+5 Panama
+6 Barbados
+7 Bahamas
+8 Cuba
+9 Dominica
+10 Dominican Republic
+11 Trinidad and Tobago
+12 Antigua and Barbuda
+12 El Salvador
+13 Costa Rica
+14 Belize
+15 Honduras
+16 Nicaragua
+17 Saint Kitts and Nevis
+18 Saint Vincent and Grenadines
+19 Saint Lucia
+20 Haiti
+21 Grenada
+22 Jamaica
+23
+24 Uruguay
+25 Paraguay
+26 Venezuela
+27 Colombia
+28 Ecuador
+29 Peru
+30 Chile
+31 Argentina
+32 Suriname
+33 Guyana
+34
+35
