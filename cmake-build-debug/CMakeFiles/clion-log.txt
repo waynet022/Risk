@@ -1,4 +1,4 @@
-C:\Users\BusinessB4Pleasure\.CLion2019.3\system\cygwin_cmake\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /cygdrive/c/Users/BusinessB4Pleasure/Documents/Risk
+"C:\Program Files\JetBrains\CLion 2019.2.5\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - NMake Makefiles" C:\Users\Flatline\Documents\Projects\Risk
 -- Configuring done
 -- Generating done
--- Build files have been written to: /cygdrive/c/Users/BusinessB4Pleasure/Documents/Risk/cmake-build-debug
+-- Build files have been written to: C:/Users/Flatline/Documents/Projects/Risk/cmake-build-debug
