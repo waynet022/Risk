@@ -27,7 +27,7 @@ add_executable(TerritoryTest Territory/TerritoryDriver.cpp
         Cards/Deck.cpp
         Cards/Hand.cpp
         Player/Player.cpp
-        Territory/Territory.cpp Territory/Territory.h)
+        Territory/Territory.cpp Territory/Territory.h Territory/TerritoryObserver.cpp Territory/TerritoryObserver.h)
 
 add_executable(PlayerTest
         Player/PlayersTest.cpp
@@ -41,4 +41,14 @@ add_executable(PlayerTest
         Cards/Deck.cpp
         Cards/Hand.cpp
         Player/Player.cpp
-        Territory/Territory.cpp Territory/Territory.h FileReader/MapFileReader.cpp FileReader/MapFileReader.h)
+        Territory/Territory.cpp Territory/Territory.h FileReader/MapFileReader.cpp FileReader/MapFileReader.h Player/PlayerObserver.cpp Player/PlayerObserver.h)
+
+add_executable(CardTest
+        Cards/CardTest.cpp
+        Cards/Card.cpp
+        Cards/Card.h
+        Cards/Deck.cpp
+        Cards/Deck.h
+        Cards/Hand.cpp
+        Cards/Hand.h
+        Cards/CardObserver.cpp Cards/CardObserver.h)

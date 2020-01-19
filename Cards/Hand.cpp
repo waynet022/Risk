@@ -6,6 +6,12 @@
 
 Hand::Hand(){
     hand_cards_ = new vector<Card*>;
+    game_deck_ = nullptr;
+}
+
+Hand::Hand(Deck* game_deck){
+    hand_cards_ = new vector<Card*>;
+    game_deck_ = game_deck;
 }
 
 Hand::~Hand(){
@@ -20,6 +26,16 @@ vector<Card*>* Hand::GetCardsInHand(){
 
 void Hand::AddCardToHand(Card* card){
     hand_cards_->push_back(card);
+}
+int Hand::ExchangeCards(int card_1, int card_2, int card_3){
+    if(ValidateExchange(card_1, card_2, card_3)){
+
+    }
+    return 0;
+}
+
+bool Hand::ValidateExchange(int card_1, int card_2, int card_3){
+    return false;
 }
 
 void Hand::DisplayCardsInHand(){

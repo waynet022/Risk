@@ -1,40 +1,39 @@
 Countries:
-1 Canada
-2 USA
-3 Mexico
-4 Guatemala
-5 Panama
-6 Barbados
-7 Bahamas
-8 Cuba
-9 Dominica
-10 Dominican Republic
-11 Trinidad and Tobago
-12 Antigua and Barbuda
-12 El Salvador
-13 Costa Rica
-14 Belize
-15 Honduras
-16 Nicaragua
-17 Saint Kitts and Nevis
-18 Saint Vincent and Grenadines
-19 Saint Lucia
-20 Haiti
-21 Grenada
-22 Jamaica
-23
-24 Uruguay
-25 Paraguay
-26 Venezuela
-27 Colombia
-28 Ecuador
-29 Peru
-30 Chile
-31 Argentina
-32 Suriname
-33 Guyana
-34
-35
+1:Canada
+2:USA
+3:Mexico
+4:Guatemala
+5:Panama
+6:Barbados
+7:Bahamas
+8:Cuba
+9:Dominica
+10:Dominican Republic
+11:Trinidad and Tobago
+12:Antigua and Barbuda
+13:El Salvador
+14:Costa Rica
+15:Belize
+16:Honduras
+17:Nicaragua
+18:Saint Kitts and Nevis
+19:Saint Vincent and the Grenadines
+20:Saint Lucia
+21:Haiti
+22:Grenada
+23:Jamaica
+24:Uruguay
+25:Paraguay
+26:Venezuela
+27:Colombia
+28:Ecuador
+29:Peru
+30:Chile
+31:Argentina
+32:Suriname
+33:Guyana
+34:Brazil
+35:Bolivia
 
 Continents:
 1 North America
