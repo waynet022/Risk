@@ -7,11 +7,20 @@
 
 #include <vector>
 #include "Card.h"
+#include "../Observer/Observable.h"
 
-class Deck {
+class Deck: public Observable<Deck> {
 private:
+    static int number_of_exchanges_;
+    vector<Card*>* cards_;
 public:
-   vector<Card> cards_;
+    Deck();
+    ~Deck();
+
+    void
+    int GetDeckSize();
+
+
 };
 
 

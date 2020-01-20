@@ -5,8 +5,10 @@
 #ifndef RISK_TERRITORYOBSERVER_H
 #define RISK_TERRITORYOBSERVER_H
 
+#include "../Observer/Observer.h"
+#include "Territory.h"
 
-class TerritoryObserver {
+class TerritoryObserver: public Observer<Territory> {
 
 };
 

@@ -51,4 +51,4 @@ add_executable(CardTest
         Cards/Deck.h
         Cards/Hand.cpp
         Cards/Hand.h
-        Cards/CardObserver.cpp Cards/CardObserver.h)
+        )
