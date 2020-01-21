@@ -10,17 +10,19 @@
 #include "Observer.h"
 
 template<typename>class observer;
-template<typename>
+template<class T>
 
 class Observable{
 private:
-    vector<Observer<T>*> observers;
+    vector<Observer<T>*> observers_;
 public:
-    void Attach(Observer<T>& observer) = 0;
-    void Detach(Observer<T>& observer)  = 0;
-    void Notify(){
-        for(auto observer: )
-    }
+//    void Attach(Observer<T>& observer);
+//    void Detach(Observer<T>& observer);
+//    void Notify(vector<Observer<T>*> observers);
+
+    virtual void Attach() = 0;
+    virtual void Detach() = 0;
+    virtual void Notify() = 0;
 };
 
 #endif //RISK_OBSERVABLE_H

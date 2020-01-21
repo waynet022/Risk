@@ -9,7 +9,10 @@
 #include "Deck.h"
 
 class DeckObserver: public Observer<Deck> {
-   void update();
+private:
+    vector<Observer<Deck>*> deck_observer_;
+public:
+    void update();
 };
 
 

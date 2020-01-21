@@ -4,6 +4,6 @@
 
 #include "DeckObserver.h"
 
-DeckObserver::update(){
-
+void DeckObserver::update(){
+    for(auto observer: )
 }
