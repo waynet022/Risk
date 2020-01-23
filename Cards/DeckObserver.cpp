@@ -5,5 +5,7 @@
 #include "DeckObserver.h"
 
 void DeckObserver::update(){
-    for(auto observer: )
+    for(auto observer: deck_observer_ ){
+        observer->Update();
+    }
 }

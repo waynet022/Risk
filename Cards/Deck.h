@@ -8,18 +8,23 @@
 #include <vector>
 #include "Card.h"
 #include "../Observer/Observable.h"
+#include "DeckObserver.h"
 
 class Deck: public Observable<Deck> {
 private:
     static int number_of_exchanges_;
     vector<Card*>* cards_;
+    vector<DeckObserver*>* deck_observer_;
 public:
     Deck();
     ~Deck();
 
-    void
-    int GetDeckSize();
+    int GetNumberOfExchanges() const;
 
+    int GetDeckSize() const;
+    void Attach(DeckObserver* deck_observer);
+    void Detach(DeckObserver* deck_observer);
+    void Notify();
 
 };
 

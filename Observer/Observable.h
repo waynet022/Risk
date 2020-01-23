@@ -13,7 +13,7 @@ template<typename>class observer;
 template<class T>
 
 class Observable{
-private:
+protected:
     vector<Observer<T>*> observers_;
 public:
 //    void Attach(Observer<T>& observer);

@@ -45,10 +45,8 @@ add_executable(PlayerTest
 
 add_executable(CardTest
         Cards/CardTest.cpp
-        Cards/Card.cpp
-        Cards/Card.h
-        Cards/Deck.cpp
-        Cards/Deck.h
-        Cards/Hand.cpp
-        Cards/Hand.h
+        Cards/Card.cpp Cards/Card.h
+        Cards/Deck.cpp Cards/Deck.h
+        Cards/Hand.cpp Cards/Hand.h
+        Cards/DeckObserver.h Cards/DeckObserver.cpp
         )
