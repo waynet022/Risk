@@ -28,10 +28,10 @@ void Deck::Attach(DeckObserver* deck_observer){
 }
 
 void Deck::Detach(DeckObserver* deck_observer){
-    deck_observer_->erase(deck_observer->begin(), );
+    deck_observer_->erase(remove(deck_observer_->begin(), deck_observer_->end(), deck_observer), deck_observer_->end());
 }
 
 void Deck::Notify(){
-
+//    for(auto observer)
 }
 

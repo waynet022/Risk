@@ -5,7 +5,6 @@
 #ifndef RISK_OBSERVER_H
 #define RISK_OBSERVER_H
 
-template<typename>
 class Observer{
 public:
     virtual void Update() = 0;

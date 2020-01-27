@@ -9,12 +9,10 @@
 #include <string>
 #include "Observer.h"
 
-template<typename>class observer;
-template<class T>
 
 class Observable{
 protected:
-    vector<Observer<T>*> observers_;
+    vector<Observer*>* observers_;
 public:
 //    void Attach(Observer<T>& observer);
 //    void Detach(Observer<T>& observer);

@@ -4,26 +4,24 @@
 #include <iostream>
 #include "Card.h"
 
-#include <utility>
 Card::Card(){
-    type_ = "CARD TYPE NOT SET";
+    type_ = none;
 }
 
-Card::Card(string type){
-    type_ = std::move(type);
+Card::Card(type card_type){
+    type_ = card_type;
 }
 
 bool Card::operator==(Card card){
     return (card.type_ == type_);
 }
 
-
-string Card::GetType(){
+type Card::GetType(){
     return type_;
 }
 
-void Card::SetType(string type){
-    type_ = std::move(type);
+void Card::SetType(type card_type){
+    type_ = card_type;
 }
 
 void Card::DisplayCard(){

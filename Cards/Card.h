@@ -7,24 +7,23 @@
 
 #include <string>
 
+enum type {none, soldier, cavalry, artillery};
+
 using namespace std;
 
 class Card {
 private:
-    string type_;
+    type type_;
 public:
     Card();
-    Card(string type);
+    Card(type card_type);
     ~Card() = default;
 
     bool operator==(Card card);
 
-    string GetType();
-
-    void SetType(string type);
-
+    type GetType();
+    void SetType(type card_type);
     void DisplayCard();
-
 };
 
 

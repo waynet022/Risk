@@ -6,11 +6,13 @@
 #define RISK_DECK_H
 
 #include <vector>
+#include <iostream>
 #include "Card.h"
 #include "../Observer/Observable.h"
 #include "DeckObserver.h"
+using namespace std;
 
-class Deck: public Observable<Deck> {
+class Deck: public Observable {
 private:
     static int number_of_exchanges_;
     vector<Card*>* cards_;

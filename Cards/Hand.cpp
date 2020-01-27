@@ -19,7 +19,6 @@ Hand::~Hand(){
     delete hand_cards_;
 }
 
-
 vector<Card*>* Hand::GetCardsInHand(){
     return hand_cards_;
 }
