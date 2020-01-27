@@ -26,8 +26,10 @@ public:
     void AddCardToHand(Card* card);
 
     int ExchangeCards(int card_1, int card_2, int card_3);
-    bool ValidateExchange(int card_1, int card_2, int card_3);
-
+    bool ValidateExchange(Card* card_1, Card* card_2, Card* card_3);
+    bool ThreeOfAKind(Card* card_1, Card* card_2, Card* card_3);
+    bool ThreeDifferent(Card* card_1, Card* card_2, Card* card_3);
+    void RemoveCards(Card* card_1, Card* card_2, Card* card_3);
     void DisplayCardsInHand();
 
 
