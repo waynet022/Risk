@@ -1,7 +1,7 @@
 //
 // Created by BusinessB4Pleasure on 1/6/2020.
 //
-
+#include <algorithm>
 #include "Deck.h"
 
 Deck::Deck(){
@@ -32,6 +32,7 @@ void Deck::Detach(DeckObserver* deck_observer){
 }
 
 void Deck::Notify(){
-//    for(auto observer)
+    for(auto deck_observer: *deck_observer_){
+        deck_observer->update();
+    }
 }
-
