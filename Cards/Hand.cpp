@@ -1,7 +1,7 @@
 //
 // Created by BusinessB4Pleasure on 1/6/2020.
 //
-
+#include <algorithm>
 #include "Hand.h"
 
 Hand::Hand(){
@@ -37,7 +37,9 @@ int Hand::ExchangeCards(int card_1, int card_2, int card_3){
         return 0;
     }
     else if(ValidateExchange(hand_cards_->at(card_1), hand_cards_->at(card_2), hand_cards_->at(card_3))){
-        this->RemoveCards(hand_cards_->at(card_1), hand_cards_->at(card_2), hand_cards_->at(card_3));
+        this->RemoveCard(hand_cards_->at(card_1));
+        this->RemoveCard(hand_cards_->at(card_2));
+        this->RemoveCard(hand_cards_->at(card_3));
         return ( 5 + game_deck_->GetNumberOfExchanges());
     }
     return 0;
@@ -57,8 +59,11 @@ bool Hand::ThreeDifferent(Card* card_1, Card* card_2, Card* card_3){
     return (card_1 != card_2 && card_1 != card_3 && card_2 != card_3);
 }
 
-void Hand::RemoveCards(Card* card_1, Card* card_2, Card* card_3){
-
+void Hand::RemoveCard(Card* card){
+    auto hand_card = find(hand_cards_->begin(), hand_cards_->end(), card);
+    if(hand_card != hand_cards_->end()){
+        hand_cards_->erase(hand_card);
+    }
 }
 
 void Hand::DisplayCardsInHand(){

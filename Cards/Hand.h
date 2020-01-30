@@ -32,7 +32,7 @@ public:
     bool ValidateExchange(Card* card_1, Card* card_2, Card* card_3);
     bool ThreeOfAKind(Card* card_1, Card* card_2, Card* card_3);
     bool ThreeDifferent(Card* card_1, Card* card_2, Card* card_3);
-    void RemoveCards(Card* card_1, Card* card_2, Card* card_3);
+    void RemoveCard(Card* card);
     void DisplayCardsInHand();
 
 
